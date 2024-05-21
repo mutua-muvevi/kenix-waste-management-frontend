@@ -30,11 +30,11 @@ const GREY = {
 
 export const PRIMARY = {
 	halfOpacity: "rgba(19, 102, 255, 0.5)",
-	lighter: "#71a3ff",
-	light: "#4285ff",
-	main: "rgba(19, 102, 255, 1)",
-	dark: "#0f52cc",
-	darker: "#0d47b3",
+	lighter: "#496e57",
+	light: "#325c42",
+	main: "#1b4a2d",
+	dark: "#184329",
+	darker: "#163b24",
 	contrastText: "#fff",
 };
 
@@ -144,8 +144,8 @@ export const palette = (themeMode) => {
 			disabled: GREY[600],
 		},
 		background: {
-			paper: "rgba(30,33,60,255)",
-			default: "#020a19",
+			paper: "#2b2b2b",
+			default: "#1c1c1c",
 			neutral: alpha(GREY[500], 0.16),
 		},
 		action: {

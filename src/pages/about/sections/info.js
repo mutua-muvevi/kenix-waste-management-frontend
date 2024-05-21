@@ -40,10 +40,10 @@ export const varietyInfo = [
 export const statements = [
 	{
 		title: "Our Mission",
-		text: "We are on a mission to revolutionize businesses through technology, providing innovative solutions that drive growth and success. With our expertise, commitment, and client-centric approach, we empower organizations to thrive in the digital age."
+		text: "We are on a mission to revolutionize waste management in Kenya and Africa by providing innovative, sustainable, and efficient waste solutions. Our commitment to environmental responsibility and customer satisfaction drives us to create a cleaner, healthier future for all.",
 	},
 	{
 		title: "Our Vision",
-		text: "Our vision is to be the leading technology partner, driving digital transformation across industries. We envision a future where businesses harness the power of technology to solve complex challenges, unlock new opportunities, and achieve sustainable growth."
+		text: "Our vision is to be the leading waste management company in Africa, setting the standard for excellence in waste collection, recycling, and sustainability. We aspire to transform waste into valuable resources and create a world where waste management is synonymous with environmental stewardship.",
 	},
 ];
