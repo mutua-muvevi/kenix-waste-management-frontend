@@ -1,0 +1,7 @@
+const contactTypes = {
+	START_SEND_MESSAGE: 'START_SEND_MESSAGE',
+	SUCCESS_SEND_MESSAGE: 'SUCCESS_SEND_MESSAGE',
+	FAIL_SEND_MESSAGE: 'FAIL_SEND_MESSAGE',
+}
+
+export default contactTypes

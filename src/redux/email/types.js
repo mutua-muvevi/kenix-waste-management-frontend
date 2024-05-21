@@ -1,0 +1,7 @@
+const emailTypes = {
+	START_POST_EMAIL: 'START_POST_EMAIL',
+	SUCCESS_POST_EMAIL: 'SUCCESS_POST_EMAIL',
+	FAIL_POST_EMAIL: 'FAIL_POST_EMAIL',
+}
+
+export default emailTypes
