@@ -1,3 +1,6 @@
+// Supports weights 100-900
+import '@fontsource-variable/overpass';
+
 // ----------------------------------------------------------------------
 
 function pxToRem(value) {
@@ -18,7 +21,7 @@ function responsiveFontSizes({ sm, md, lg }) {
 	};
 }
 
-const FONT_PRIMARY = "'Nunito Sans', sans-serif";
+const FONT_PRIMARY = "'Overpass Variable', sans-serif";
 const FONT_HEADER = "'Lato', sans-serif";
 
 const typography = {
