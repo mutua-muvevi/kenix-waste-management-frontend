@@ -21,10 +21,6 @@ const SocialMediaIcons = [
 		icon: <Iconify icon="basil:reddit-solid"/>,
 		link: "https://www.reddit.com/user/Kenix Waste Management"
 	},
-	{
-		icon: <Iconify icon="ri:youtube-fill"/>,
-		link: "https://www.youtube.com/channel/UCIKvU_qUH8F7JqPaR7u00HQ"
-	},
 ]
 
 export default SocialMediaIcons
