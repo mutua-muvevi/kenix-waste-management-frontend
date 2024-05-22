@@ -50,7 +50,7 @@ const Banner = () => {
 						What we do: {typing}
 					</Typography>
 
-					<Typography variant="h6" textAlign="justify" sx={{ color: "#ffffff" }}>
+					<Typography variant="h5" textAlign="justify" sx={{ color: "#ffffff" }}>
 						{subtitle}
 					</Typography>
 				</Stack>

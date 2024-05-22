@@ -22,7 +22,7 @@ function responsiveFontSizes({ sm, md, lg }) {
 }
 
 const FONT_PRIMARY = "'Overpass Variable', sans-serif";
-const FONT_HEADER = "'Lato', sans-serif";
+const FONT_HEADER = "'Overpass Variable', sans-serif";
 
 const typography = {
 	fontFamily: FONT_PRIMARY,
