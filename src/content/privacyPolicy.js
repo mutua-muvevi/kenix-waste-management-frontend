@@ -3,31 +3,31 @@ const PrivacyPolicyList = [
 		icon: "mdi:account-details-outline",
 		title: "Data Collection",
 		paragraph:
-			"We collect and process your data when you register for our services, use our applications, or contact us. The type of data we collect may include your name, email address, location, and usage information. We do this to improve your user experience and enhance the quality of our services. All data collection complies with local data protection laws. We will always ask for your consent before collecting any sensitive data.",
+			"We collect and process your data when you sign up for our services, request waste management solutions, or contact us for support. The types of data we collect may include your name, address, contact information, and service usage details. This information helps us to improve our services and ensure efficient waste management operations. All data collection complies with local data protection laws, and we will always obtain your consent before collecting any sensitive information.",
 	},
 	{
 		icon: "mdi:share-all-outline",
 		title: "Data Sharing",
 		paragraph:
-			"We ensure that your data is shared strictly on a need-to-know basis and with your consent. Data sharing can happen with service providers who help us provide our services to you. All our service providers are obligated to maintain the confidentiality of your data. We do not sell or rent your personal data to third parties for their marketing purposes without your explicit consent.",
+			"We share your data strictly on a need-to-know basis and only with your consent. Data sharing may occur with third-party service providers who assist us in delivering waste management services. All service providers are required to maintain the confidentiality and security of your data. We do not sell or rent your personal data to third parties for marketing purposes without your explicit consent.",
 	},
 	{
 		icon: "mdi:shield-lock-outline",
 		title: "Data Security",
 		paragraph:
-			"Your data security is our priority. We enforce stringent measures to safeguard your personal information against unauthorized access, alteration, or disclosure. However, it's important for you to also exercise caution in sharing your data, especially on public networks. We cannot be held responsible for any breaches resulting from your actions.",
+			"Protecting your data is our top priority. We implement stringent security measures to safeguard your personal information from unauthorized access, alteration, or disclosure. However, it is also important for you to exercise caution when sharing your data, especially on public networks. While we strive to protect your data, we cannot be held responsible for any breaches that occur due to your actions.",
 	},
 	{
 		icon: "mdi:lock-check",
 		title: "User Rights",
 		paragraph:
-			"As a user, you have certain rights regarding your data. These include the right to access, correct, and delete your personal information. You also have the right to withdraw your consent at any time. We ensure these rights are respected and facilitated in our services. You can exercise your rights by reaching out to us through the contact details provided in this policy.",
+			"As a user, you have specific rights regarding your personal data. These rights include the ability to access, correct, and delete your information. You also have the right to withdraw your consent at any time. We are committed to respecting and facilitating these rights within our services. To exercise your rights, please contact us using the information provided in this policy.",
 	},
 	{
 		icon: "mdi:refresh",
 		title: "Policy Updates",
 		paragraph:
-			"We may revise this Privacy Policy from time to time. All updates will be posted on this page. Your continued use of our services after any changes made to this policy indicates your acceptance of the new terms. We encourage you to regularly review this policy to stay informed about how we are helping to protect the personal information we collect.",
+			"We may update this Privacy Policy periodically to reflect changes in our practices or for other operational, legal, or regulatory reasons. All updates will be posted on this page. Your continued use of our services after any changes indicates your acceptance of the revised terms. We encourage you to review this policy regularly to stay informed about how we protect your personal information.",
 	},
 ];
 

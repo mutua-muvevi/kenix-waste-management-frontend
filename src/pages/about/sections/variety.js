@@ -18,6 +18,7 @@ import ModalComponent from "src/components/ui/Modal";
 
 import { truncateStr } from "src/utils/formatStrings";
 import { selectVariety } from "src/redux/variety/action";
+import { VarietyList } from "src/content/variety"
 
 import Varietychildren from "./varietychildren";
 
@@ -56,7 +57,7 @@ const Variety = ({ varieties, variety, setVariety }) => {
 
 						<div>
 							<Grid container spacing={3}>
-								{varieties.map((variety, i) => (
+								{VarietyList.map((variety, i) => (
 									<Grid
 										item
 										key={i}

@@ -10,11 +10,11 @@ import { postEmail } from "src/redux/email/action";
 
 const Image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1687991987/images/tech_imrfwj.jpg";
 const Person ="https://res.cloudinary.com/dbj0t0zym/image/upload/v1687987718/images/whyus_uw0loc.jpg";
-const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod purus a turpis pretium volutpat. Aliquam erat volutpat. In dignissim vitae tortor nec suscipit. Nullam dictum viverra arcu, eu vestibulum mi bibendum a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; "
+
 
 const emailCapture = {
-	title: "Unlock Exclusive Offers",
-	subtitle: "Join our community and be the first to know about the latest trends, exclusive promotions, and game-changing insights. Don't miss out on the opportunity to level up your business. Enter your email below to stay ahead of the competition and receive personalized updates tailored to your needs.",
+	title: "Stay Informed",
+	subtitle: "Sign up for our newsletter to stay up-to-date with the latest developments, industry insights, and exclusive offers in waste management. Don't miss out on valuable information that can help optimize your waste management practices and drive sustainability.",
 };
 
 const INITIAL_FORM_STATE = {

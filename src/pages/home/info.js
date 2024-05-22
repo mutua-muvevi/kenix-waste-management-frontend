@@ -1,92 +1,80 @@
-import { FaUserTie, FaBriefcase } from "react-icons/fa";
-import { MdAddBusiness } from "react-icons/md";
+import { FaRecycle, FaHouseUser } from "react-icons/fa";
+import { IoIosPeople } from "react-icons/io";
 
 const styledIcon = {
 	fontSize: "25px",
 };
 
 export const leftRightContainerList = {
-	title: "",
+	title: "Who Finds Inspiration in Kennix Waste Management?",
 	items: [
 		{
-			icon: <MdAddBusiness style={styledIcon} />,
-			title: "Startup",
-			text: "Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Id faucibus nisl tincidunt eget nullam non nisi est senectus et netus et malesuada fames.",
+			icon: <FaRecycle style={styledIcon} />,
+			title: "Eco-Enthusiasts",
+			text: "For those passionate about environmental sustainability, Kennix's innovative waste management solutions offer a pathway to contribute positively to the planet.",
 		},
 		{
-			icon: <FaUserTie style={styledIcon} />,
-			title: "Entrepreneurs",
-			text: "Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Id faucibus nisl tincidunt eget nullam non nisi est senectus et netus et malesuada fames.",
+			icon: <IoIosPeople style={styledIcon} />,
+			title: "Community Advocates",
+			text: "Community leaders and activists partner with Kennix to implement sustainable waste management practices that benefit their neighborhoods and cities.",
 		},
 		{
-			icon: <FaBriefcase style={styledIcon} />,
-			title: "Managers",
-			text: "ncidunt eget nullam non nisi est. Senectus et netus et malesuada fames ac. Placerat duis ultricies lacus sed rhoncus est pellentesque elit .",
+			icon: <FaHouseUser style={styledIcon} />,
+			title: "Real Estate Developers",
+			text: "Real estate professionals collaborate with Kennix to integrate sustainable waste management solutions into their projects, enhancing property value and community appeal.",
 		},
 	],
 };
 
 export const scaleUpBusiness = {
-	title: "Accelerate Your Growth with Us",
+	title: "Empower Your Expansion with Kennix",
 	subtitle:
-		"Experience exponential growth as we craft a digital strategy tailored specifically to your business objectives. Let us be your tech partners, the propellers of your success in the digital age.",
+		"Experience accelerated growth with our tailored digital strategies designed to meet your business objectives. Let us be your technology partner, propelling your success in the digital era.",
 	items: [
 		{
-			icon: "mdi-cogs",
-			title: "Streamlined Operations",
-			text: "Efficiency is the key to scaling. Our tailored software solutions automate and streamline your business processes, saving time and resources, ultimately driving profitability.",
+			icon: "mdi:engine-outline",
+			title: "Efficient Waste Management",
+			text: "Efficiency is paramount in waste management. Our customized software solutions automate and streamline waste collection, processing, and recycling processes, optimizing resource utilization and driving sustainability.",
 		},
 		{
-			icon: "mdi-rocket-launch-outline",
-			title: "Rapid Market Penetration",
-			text: "Leverage our cutting-edge web and mobile applications to broaden your reach, penetrate markets faster, and achieve a larger customer base with our intuitive and engaging designs.",
+			icon: "mdi:rocket-outline",
+			title: "Market Leadership",
+			text: "Achieve market dominance with Kennix Waste Management's innovative waste solutions. Our web and mobile applications broaden your reach, penetrate markets swiftly, and establish your leadership position in the waste management industry.",
 		},
 		{
-			icon: "mdi-database-check",
-			title: "Data-Driven Insights",
-			text: "Turn data into your competitive advantage. Our AI and data science solutions unlock actionable insights, enabling you to make strategic decisions that foster growth.",
-		},
-		{
-			icon: "mdi-cloud-check",
-			title: "Scalable Cloud Solutions",
-			text: "Stay ahead with our cloud computing services. We ensure secure, reliable, and scalable cloud solutions that grow with your business, accommodating increased workload without impacting performance.",
+			icon: "mdi:database-check",
+			title: "Insightful Analytics",
+			text: "Harness the power of data to drive informed decisions. Our AI and data science solutions provide actionable insights, enabling you to optimize waste management processes, reduce costs, and improve environmental outcomes.",
 		},
 	],
 };
 
 export const whyChooseUs = {
-	title: "Experience the Power of Exceptional Tech Partnership",
+	title: "Why Kennix Waste Management?",
 	subtitle:
-		"Choosing us is opting for transformational growth and innovative prowess. We are more than a tech company; we are your strategic partners, dedicated to propelling your business to new heights. Our passion for technology, coupled with our deep industry knowledge, delivers unparalleled value. Dive in with us to explore how we turn your tech challenges into strategic assets.",
+		"Choosing Kennix Waste Management means choosing innovation, sustainability, and reliability. We go beyond traditional waste management companies; we are your strategic partners dedicated to propelling your waste management efforts to new heights. Our commitment to technology, coupled with our deep industry knowledge, delivers unparalleled value. Join us to discover how we turn waste management challenges into strategic assets.",
 	paragraphs: [
-		"As industry trailblazers, we offer expertise spanning across various technology domains. Our diverse portfolio is a testament to our adaptability and ability to tailor-fit solutions for unique business needs. Whether you're a start-up seeking to disrupt markets or an established entity looking to optimize operations, we have the experience and skills to drive your business forward.",
-		"We champion innovation. At the core of our services, you'll find cutting-edge technology and a drive to push boundaries. We bring to the table a suite of tech solutions designed to keep you ahead in this fast-paced digital era. Our solutions don’t just solve problems; they redefine your competitive landscape, creating new avenues for growth and success.",
-		"Trust, reliability, and integrity are the pillars of our partnership with you. We place utmost importance on data security and ethical practices. As your tech partners, we deliver transparency and dependability, ensuring that our relationship is built on mutual respect and a shared vision for your business growth.",
-		"Let's embark on a journey of transformation together. We promise you an alliance that harnesses the power of technology to create a tangible impact on your business. We're not just providing a service; we're offering a partnership that's committed to your success. Choose us, and let's shape the future of your business together.",
+		"As pioneers in the waste management industry, we offer expertise spanning various waste management domains. Our diverse portfolio showcases our adaptability and ability to tailor solutions to unique waste management needs. Whether you're a small community seeking sustainable waste solutions or a large corporation aiming to optimize waste operations, we have the experience and skills to drive your waste management forward.",
+		"We lead with innovation. At the heart of our services, you'll find cutting-edge technology and a drive to push boundaries. We bring a suite of waste management solutions designed to keep you ahead in this ever-evolving industry. Our solutions don’t just solve waste management problems; they redefine your environmental impact, creating new opportunities for sustainable growth and success.",
 	],
-	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689491550/strategic_awm8ub.jpg"
+	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689491550/strategic_awm8ub.jpg",
 };
 
-
 export const allBusinessTypes = {
-	title: "Empowering Businesses of All Scales and Sectors",
-	subtitle: "No matter the size or industry, our technology solutions are tailored to fit your unique business needs. We're driven by the mission to empower all businesses, whether you're an SME, a disruptive startup, or an established enterprise.",
+	title: "Empowering Sustainable Practices Across Diverse Industries",
+	subtitle:
+		"At Kennix Waste Management, we specialize in providing tailored technology solutions to meet the unique needs of businesses across various sectors. Our mission is to empower enterprises of all sizes and industries to adopt sustainable waste management practices and thrive in the modern business landscape.",
 	items: [
 		{
-			icon: "mdi-office-building",
-			title: "Small and Medium-sized Enterprises (SMEs)",
-			text: "We understand the unique challenges SMEs face. Our innovative, budget-friendly tech solutions are designed to drive efficiency, improve operations, and position your SME for scalable growth. Experience tailored solutions that turn your tech challenges into growth opportunities."
+			icon: "mdi:office-building",
+			title: "Commercial Enterprises",
+			text: "Optimize your waste management processes with our innovative solutions tailored for commercial enterprises. From waste reduction strategies to efficient recycling programs, our technology-driven approach helps businesses minimize environmental impact while maximizing operational efficiency and cost savings.",
 		},
 		{
-			icon: "mdi-rocket-launch",
-			title: "Startups and Entrepreneurial Ventures",
-			text: "For startups, agility and innovation are key. Our nimble, cutting-edge tech solutions equip you to disrupt markets and lead the innovation race. From ideation to execution, we're your tech partner that fuels your journey to become a market leader."
-		},
-		{
-			icon: "mdi-factory",
-			title: "Established Enterprises and Corporations",
-			text: "For established businesses, we offer tech solutions that optimize operations, improve customer experience, and drive sustainable growth. Leverage our tech expertise to stay competitive, adapt to market changes, and lead in your industry."
+			icon: "mdi:factory",
+			title: "Corporate Giants",
+			text: "Lead the way in sustainable corporate responsibility with Kennix's comprehensive waste management solutions. From waste audits to sustainable packaging initiatives, our technology-driven approach enables corporations to minimize waste generation, reduce carbon footprint, and enhance brand reputation.",
 		},
 	],
-	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689493104/business_types_atuctw.jpg"
-}
+	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689493104/business_types_atuctw.jpg",
+};
