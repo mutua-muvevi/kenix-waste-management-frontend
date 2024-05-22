@@ -5,7 +5,7 @@ import useTypewriter from "src/hooks/useTypewriter";
 import { bannerCards } from "./info";
 
 const Image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1687983038/images/techbackground_f8nfzu.jpg";
-const subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tortor enim, euismod non mattis vel, ullamcorper vel purus. Sed scelerisque varius dui, ac dapibus lacus aliquet porttitor. Mauris dictum dignissim augue a hendrerit. Aliquam gravida aliquam porttitor. Suspendisse quis metus urna. Vestibulum sed ultrices eros. Donec placerat orci ante. Suspendisse et pulvinar metus. Donec ac nulla commodo, varius nisi a, aliquet metus. Mauris ornare neque sit amet nisl tristique efficitur. Vivamus velit arcu, tempor non dapibus ac, consequat posuere nisl. Nulla vitae orci at ligula pretium eleifend. Praesent nunc ex, sollicitudin eu ligula sit amet, lacinia viverra elit.";
+const subtitle = "Kennix Waste Management is dedicated to providing comprehensive waste management solutions tailored to the unique needs of our clients. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tortor enim, euismod non mattis vel, ullamcorper vel purus. Sed scelerisque varius dui, ac dapibus lacus aliquet porttitor. Mauris dictum dignissim augue a hendrerit. Aliquam gravida aliquam porttitor. Suspendisse quis metus urna. Vestibulum sed ultrices eros. Donec placerat orci ante. Suspendisse et pulvinar metus. Donec ac nulla commodo, varius nisi a, aliquet metus. Mauris ornare neque sit amet nisl tristique efficitur. Vivamus velit arcu, tempor non dapibus ac, consequat posuere nisl. Nulla vitae orci at ligula pretium eleifend. Praesent nunc ex, sollicitudin eu ligula sit amet, lacinia viverra elit.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	minHeight: "75vh",
@@ -48,7 +48,7 @@ const Banner = () => {
 				<Stack direction="column" spacing={5} justifyContent="flex-end">
 				
 					<Typography variant="h2" sx={{color: "#ffffff"}}>
-						Our niche include: {typing}
+						What we do: {typing}
 					</Typography>
 
 					<Typography variant="h6" sx={{ color: "#ffffff" }}>
