@@ -15,7 +15,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const Domain = () => {
 	return (
-		<Page title="Our Domain || Kenix Waste Management | Leading Waste Management Solutions">
+		<Page title="Our Domain || Kenix Waste Solutions | Leading Waste Management Solutions">
 			<StyledWrapper>
 				<ReusableBanner
 					title="Our Domain"

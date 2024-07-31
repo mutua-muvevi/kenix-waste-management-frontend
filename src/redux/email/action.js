@@ -19,7 +19,7 @@ export const postEmail = (values) => {
 	return async (dispatch) => {
 		try {
 			const res = axios.post(
-				`https://Kenix Waste Management-baur.onrender.com/api/email/post`,
+				`https://Kenix Waste Solutions-baur.onrender.com/api/email/post`,
 				values,
 				{
 					headers: {

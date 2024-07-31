@@ -11,7 +11,7 @@ const HelpList = {
 			items: [
 				{
 					icon: "mdi:bin",
-					text: "Tailored Waste Disposal",
+					text: "Tailored Waste Collections",
 				},
 				{
 					icon: "mdi:factory",

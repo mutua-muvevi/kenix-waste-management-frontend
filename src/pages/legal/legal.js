@@ -9,7 +9,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const Legal = () => {
 	return (
-		<Page title="Our Legal || Kenix Waste Management | Leading Waste Management Solutions">
+		<Page title="Our Legal || Kenix Waste Solutions | Leading Waste Management Solutions">
 			<StyledWrapper>
 				<div>Legal</div>
 			</StyledWrapper>

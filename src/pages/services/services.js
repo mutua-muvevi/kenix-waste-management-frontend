@@ -14,7 +14,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const Services = () => {
 	return (
-		<Page title="Our Services || Kenix Waste Management | Leading Waste Management Solutions">
+		<Page title="Our Services || Kenix Waste Solutions | Leading Waste Management Solutions">
 			<StyledWrapper>
 				<ReusableBanner
 					title="What we do"

@@ -1,5 +1,6 @@
 // Supports weights 100-900
-import '@fontsource-variable/overpass';
+import "@fontsource-variable/overpass";
+import "@fontsource/fira-mono";
 
 // ----------------------------------------------------------------------
 
@@ -22,7 +23,7 @@ function responsiveFontSizes({ sm, md, lg }) {
 }
 
 const FONT_PRIMARY = "'Overpass Variable', sans-serif";
-const FONT_HEADER = "'Overpass Variable', sans-serif";
+const FONT_HEADER = "'Fira Mono', monospace;";
 
 const typography = {
 	fontFamily: FONT_PRIMARY,

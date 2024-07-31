@@ -75,7 +75,7 @@ export default function NavMobile({ isOffset, data }) {
 					>
 						<Logo sx={{ my: 3 }} />
 						<Typography variant="h5" sx={{ color: "#ffffff" }}>
-							Kenix Waste Management
+							Kenix Waste Solutions
 						</Typography>
 					</Stack>
 

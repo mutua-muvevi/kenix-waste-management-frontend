@@ -49,7 +49,7 @@ const ReusableNewsCards = ({title, subtitle, alignItems, chipText, list, setNews
 											<CardMedia
 												component="img"
 												src={news.thumbnail}
-												alt={`${news.title} : Kenix Waste Management Blog thumbnail`}
+												alt={`${news.title} : Kenix Waste Solutions Blog thumbnail`}
 												height={250}
 											/>
 											<CardContent>

@@ -5,8 +5,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { useTheme } from "@mui/material/styles";
 import { Box, Link } from "@mui/material";
 
-const logoImage =
-	"../../assets/logo/logo.png";
+const logoImage = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1722438649/KENIX%20WASTE%20SOLUTIONS%20LTD/LOGO_Web_vj0af4.png";
 
 // ----------------------------------------------------------------------
 
@@ -37,11 +36,13 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
 				width: 40,
 				height: 40,
 				display: "inline-flex",
+				backgroundColor: theme.palette.secondary.main,
+				borderRadius: "50%",
 				...sx,
 			}}
 			{...other}
 		>
-			<img src={logoImage} alt="Kenix Waste Management logo"/>
+			<img src={logoImage} alt="Kenix Waste Solutions logo"/>
 		</Box>
 	);
 

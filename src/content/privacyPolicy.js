@@ -15,13 +15,7 @@ const PrivacyPolicyList = [
 		icon: "mdi:shield-lock-outline",
 		title: "Data Security",
 		paragraph:
-			"Protecting your data is our top priority. We implement stringent security measures to safeguard your personal information from unauthorized access, alteration, or disclosure. However, it is also important for you to exercise caution when sharing your data, especially on public networks. While we strive to protect your data, we cannot be held responsible for any breaches that occur due to your actions.",
-	},
-	{
-		icon: "mdi:lock-check",
-		title: "User Rights",
-		paragraph:
-			"As a user, you have specific rights regarding your personal data. These rights include the ability to access, correct, and delete your information. You also have the right to withdraw your consent at any time. We are committed to respecting and facilitating these rights within our services. To exercise your rights, please contact us using the information provided in this policy.",
+			"Protecting your personal data and waste data is our top priority. We implement stringent security measures to safeguard your personal information from unauthorized access, alteration, or disclosure. However, it is also important for you to exercise caution when sharing your data, especially on public networks. While we strive to protect your data, we cannot be held responsible for any breaches that occur due to your actions.",
 	},
 	{
 		icon: "mdi:refresh",

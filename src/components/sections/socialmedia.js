@@ -15,7 +15,7 @@ const SocialMediaIcons = [
 	},
 	{
 		icon: <Iconify icon="mdi:linkedin"/>,
-		link: "https://www.linkedin.com"
+		link: "https://www.linkedin.com/company/kenix-waste-solutions-ltd/"
 	},
 	{
 		icon: <Iconify icon="basil:reddit-solid"/>,

@@ -10,11 +10,11 @@ const styledIcons = {
 export const footerItems = {
 	logoSection : {
 		logo: {
-			src: "logoImage",
-			alt:"Kenix Waste Management logo"
+			src: "https://res.cloudinary.com/dt0uaru3j/image/upload/v1722438649/KENIX%20WASTE%20SOLUTIONS%20LTD/LOGO_Web_vj0af4.png",
+			alt:"Kenix Waste Solutions logo"
 		},
-		title: "Kenix Waste Management Ltd",
-		text: "Crafting the Digital Rhythm of Africa"
+		title: "Kenix Waste Solutions Ltd",
+		text: "Sustainable Clean Green World."
 	},
 	pages: {
 		title: "Company",
@@ -70,23 +70,23 @@ export const footerItems = {
 		title: "Get in touch",
 		items: [
 			{
-				label: "info@Kenix Waste Management.com",
+				label: "info@kenixwastesolutions.co.ke",
 				icon: <BsFillEnvelopeFill style={styledIcons}/>
 			},
 			{
-				label: "Kenix Waste Management@gmail.com",
+				label: "Kenix Waste Solutions@gmail.com",
 				icon: <BsFillEnvelopeFill style={styledIcons}/>
 			},
 			{
-				label: "+254 700 000 000",
+				label: "+254 111 220 195",
 				icon: <BsFillTelephoneFill style={styledIcons}/>
 			},
 			{
-				label: "+254 700 000 001",
+				label: "+254 114 260 070",
 				icon: <BsFillTelephoneFill style={styledIcons}/>
 			},
 			{
-				label: "Nairobi Kenya",
+				label: "Embakasi, Nairobi Kenya",
 				icon: <MdLocationOn style={styledIcons}/>
 			},
 		]

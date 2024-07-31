@@ -14,7 +14,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const CookiePolicy = () => {
 	return (
-		<Page title="Cookie Policy || Kenix Waste Management | Leading Waste Management Solutions">
+		<Page title="Cookie Policy || Kenix Waste Solutions | Leading Waste Management Solutions">
 			<StyledWrapper>
 				<ReusableBanner
 					title="Our Cookie Policy"
