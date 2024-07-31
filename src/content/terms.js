@@ -15,13 +15,13 @@ const TermsList = [
 		icon: "mdi:shield-lock-outline",
 		title: "Privacy and Data Handling",
 		paragraph:
-			"Your privacy is a priority for us, and we ensure its respect and protection in all our processes. Our handling of your data aligns with our Privacy Policy, and your acceptance of these terms equals your agreement with our data practices. We enforce stringent security measures to safeguard your data. However, it's also crucial for you to exercise caution while sharing sensitive information. We cannot be held responsible for unauthorized access to your personal data due to your actions.",
+			"Your privacy is a priority for us, and we ensure its respect and protection in all our processes. Our handling of your waste data aligns with our Privacy Policy, and your acceptance of these terms equals your agreement with our data practices. We enforce stringent security measures to safeguard your data. However, it's also crucial for you to exercise caution while sharing sensitive information. We cannot be held responsible for unauthorized access to your personal data due to your actions.",
 	},
 	{
 		icon: "mdi:gavel",
 		title: "Legal Jurisdiction",
 		paragraph:
-			"Our Terms of Service, the usage of our services, and any potential disputes arising from it are governed by the laws of our operating jurisdiction. Your consent to our terms also means you agree to resolve any legal matters under the specified jurisdiction. We may revise these terms as required, and your continued use of our services indicates your acceptance of any modifications. Our commitment is to provide clear and unambiguous terms to ensure a seamless client experience.",
+			"Our Terms of Service, the usage of our services, and any potential disputes arising from it are governed by the laws of Kenya. Your consent to our terms also means you agree to resolve any legal matters under the specified jurisdiction. We may revise these terms as required, and your continued use of our services indicates your acceptance of any modifications. Our commitment is to provide clear and unambiguous terms to ensure a seamless client experience.",
 	},
 	{
 		icon: "mdi:check-decagram",

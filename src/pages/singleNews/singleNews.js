@@ -14,7 +14,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const SingleNews = ({news}) => {
 	return (
-		<Page title={`${news.title} || Kenix Waste Management News || Kenix Waste Management | Leading Waste Management Solutions`}>
+		<Page title={`${news.title} || Kenix Waste Solutions News || Kenix Waste Solutions | Leading Waste Management Solutions`}>
 			<StyledWrapper>
 				<ReusableBanner
 					title={news.title}

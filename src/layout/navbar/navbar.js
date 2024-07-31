@@ -86,7 +86,7 @@ const Navbar = () => {
 						<Stack direction="row" spacing={2} justifyContent="left" alignItems="center">
 							<Logo />
 							<Typography variant="h5" sx={{color: "#ffffff"}}>
-								Kenix Waste Management
+								Kenix Waste Solutions
 							</Typography>
 						</Stack>
 
@@ -100,10 +100,7 @@ const Navbar = () => {
 							target="_blank"
 							rel="noopener"
 							onClick={() => setOpen(true)}
-							sx={{
-								backgroundColor: "#ffffff",
-								color: theme.palette.primary.main
-							}}
+							color="secondary"
 						>
 							Request Quotation
 						</Button>

@@ -39,12 +39,12 @@ export const PRIMARY = {
 };
 
 export const SECONDARY = {
-	lighter: "#5277b8",
-	light: "#3d66af",
-	main: "#2755a6",
-	dark: "#1f4485",
-	darker: "#1b3b74",
-	contrastText: "#fff",
+	lighter: "fdc280",
+	light: "fc9d33",
+	main: "#FB8500",
+	dark: "#e27800",
+	darker: "#c96a00",
+	contrastText: "#000000",
 };
 
 export const INFO = {

@@ -3,15 +3,15 @@ import { styled } from "@mui/system";
 
 import useTypewriter from "src/hooks/useTypewriter";
 
-const Image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1687983038/images/techbackground_f8nfzu.jpg";
+const Image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1720638776/KENIX%20WASTE%20SOLUTIONS%20LTD/road-8003640_1920_zsm9pf.jpg";
 const subtitle = "Kennix Waste Management provides tailored waste management solutions designed to meet your specific requirements. Our dedicated team works closely with clients to deliver efficient and sustainable waste management strategies. Trust us to handle your waste management needs with expertise and commitment."
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	minHeight: "75vh",
-	backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(${Image})`,
+	backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${Image})`,
 	backgroundSize: "cover",
 	backgroundAttachment: "fixed",
-	backgroundPosition: "center",
+	backgroundPosition: "bottom",
 }));
 
 const StyledContainer = styled(Container)(({ theme }) => ({
@@ -26,17 +26,16 @@ const StyledContainer = styled(Container)(({ theme }) => ({
 const Banner = () => {
 	const words = [
 		"Residential Waste Collection",
-		"Commercial Waste Disposal",
+		"Commercial Waste Collection",
 		"Recycling and Reuse Solutions",
 		"Hazardous Waste Management",
 		"Organic Waste Composting",
 		"E-Waste Recycling",
 		"Waste Management Consulting",
 		"Sustainable Waste Solutions",
-		"Waste-to-Energy Projects",
 		"Industrial Waste Services",
 		"Medical Waste Disposal",
-		"Waste Treatment Technologies"
+		"Sale of recyclables"
 	];
 	
 	const typing = useTypewriter(words);

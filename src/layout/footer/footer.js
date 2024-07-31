@@ -8,6 +8,7 @@ import {
 	Grid,
 	Stack,
 	Typography,
+	useTheme,
 	Zoom,
 } from "@mui/material";
 import { styled } from "@mui/system";
@@ -35,8 +36,8 @@ const StyledGridItem = styled(Grid)(({ theme }) => ({}));
 const StyledGridStack = styled(Stack)(({ theme }) => ({}));
 
 const styledLogo = {
-	height: "30%",
-	width: "30%",
+	height: 70,
+	width: 70,
 };
 
 const styledLink = {
@@ -55,6 +56,8 @@ const StyledBottomFooter = styled(Stack)(({ theme }) => ({
 }));
 
 const Footer = () => {
+	const theme = useTheme()
+	
 	return (
 		<div>
 			<StyledFooter>
@@ -72,12 +75,24 @@ const Footer = () => {
 								spacing={1.5}
 								direction="column"
 								alignItems="flex-start"
-							>
-								<img
-									src={footerItems.logoSection.logo.src}
-									alt={footerItems.logoSection.logo.alt}
-									style={styledLogo}
-								/>
+							>	
+								<Box
+									sx={{
+										borderRadius: "50%",
+										backgroundColor: theme.palette.secondary.main,
+										width: 75,
+										height: 75,
+										display: "flex",
+										justifyContent: "center",
+										alighItems: "center",
+									}}
+								>
+									<img
+										src={footerItems.logoSection.logo.src}
+										alt={footerItems.logoSection.logo.alt}
+										style={styledLogo}
+									/>
+								</Box>
 								<Typography variant="h3">
 									{footerItems.logoSection.title}
 								</Typography>
@@ -201,7 +216,7 @@ const Footer = () => {
 				justifyContent="center"
 			>
 				<Typography variant="subtitle1" style={{ color: "#ffffff" }}>
-					™ Kenix Waste Management {currentYear} All rights reserved
+					™ Kenix Waste Solutions {currentYear} All rights reserved
 				</Typography>
 			</StyledBottomFooter>
 		</div>

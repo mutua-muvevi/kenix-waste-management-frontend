@@ -14,7 +14,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const SingleBlogs = ({blog}) => {
 	return (
-		<Page title={`${blog.title} || Kenix Waste Management Blogs`}>
+		<Page title={`${blog.title} || Kenix Waste Solutions Blogs`}>
 			<StyledWrapper>
 				<ReusableBanner
 					title={blog.title}

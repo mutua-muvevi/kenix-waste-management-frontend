@@ -14,7 +14,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const PrivacyPolicy = () => {
 	return (
-		<Page title="Privacy Policy || Kenix Waste Management Technology Company">
+		<Page title="Privacy Policy || Kenix Waste Solutions Technology Company">
 			<StyledWrapper>
 				<ReusableBanner
 					title="Our Privacy Policy"

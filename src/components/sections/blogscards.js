@@ -49,7 +49,7 @@ const ReusableBlogsCards = ({title, subtitle, alignItems, chipText, list, setBlo
 											<CardMedia
 												component="img"
 												src={blog.thumbnail}
-												alt={`${blog.title} : Kenix Waste Management Blog thumbnail`}
+												alt={`${blog.title} : Kenix Waste Solutions Blog thumbnail`}
 												height={250}
 											/>
 											<CardContent>
