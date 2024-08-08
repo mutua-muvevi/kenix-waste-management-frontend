@@ -3,7 +3,7 @@ import { styled } from "@mui/system";
 
 import useTypewriter from "src/hooks/useTypewriter";
 
-const Image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1720638776/KENIX%20WASTE%20SOLUTIONS%20LTD/road-8003640_1920_zsm9pf.jpg";
+const Image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1720638205/KENIX%20WASTE%20SOLUTIONS%20LTD/recycle-background-with-recycle-sign-rubbish_y0cv7b.jpg";
 const subtitle = "Kennix Waste Management provides tailored waste management solutions designed to meet your specific requirements. Our dedicated team works closely with clients to deliver efficient and sustainable waste management strategies. Trust us to handle your waste management needs with expertise and commitment."
 
 const StyledWrapper = styled(Box)(({ theme }) => ({

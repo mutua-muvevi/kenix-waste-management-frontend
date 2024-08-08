@@ -26,7 +26,9 @@ const image =
 const subtitle = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor lobortis gravida. Duis efficitur velit nibh, vel vulputate neque posuere pharetra.`;
 
 const scaleUpImage =
-	"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689489839/growth_w0phnw.jpg";
+	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033709/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-502778736-612x612_kaokj0.jpg";
+
+const textgridBackground = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723057071/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1711082030-612x612_bbhvll.jpg"
 
 const newsTitle = "Waste Wisdom: Exploring Sustainable Solutions and Environmental Insights";
 const newsSubtitle = "Explore the latest news and updates from Kennix Waste Management. From innovative waste management solutions to environmental initiatives and industry trends, stay connected with us as we work towards a cleaner, greener future for all.";
@@ -58,6 +60,7 @@ const Home = () => {
 					image={whyChooseUs.image}
 					ImageminHeight="50vh"
 					paragraphs={whyChooseUs.paragraphs}
+					textGridBackground={textgridBackground}
 				/>
 				<HomeServices />
 				<LeftRightContainered
