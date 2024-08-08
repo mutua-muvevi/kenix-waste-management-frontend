@@ -57,7 +57,7 @@ export const whyChooseUs = {
 		"As pioneers in the waste management industry, we offer expertise spanning various waste management domains. Our diverse portfolio showcases our adaptability and ability to tailor solutions to unique waste management needs. Whether you're a small community seeking sustainable waste solutions or a large corporation aiming to optimize waste operations, we have the experience and skills to drive your waste management forward.",
 		"We lead with innovation. At the heart of our services, you'll find cutting-edge technology and a drive to push boundaries. We bring a suite of waste management solutions designed to keep you ahead in this ever-evolving industry. Our solutions don’t just solve waste management problems; they redefine your environmental impact, creating new opportunities for sustainable growth and success.",
 	],
-	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689491550/strategic_awm8ub.jpg",
+	image: "https://res.cloudinary.com/dt0uaru3j/image/upload/v1720638410/KENIX%20WASTE%20SOLUTIONS%20LTD/garbage-bin-liners-kenix-with-slogan-sustainable-c-tK6nTClMSuKkvwfi1GIkYw-NBWC-UQwQf-pO3bsDKNuHQ_vgjmug.jpg",
 };
 
 export const allBusinessTypes = {
@@ -76,5 +76,5 @@ export const allBusinessTypes = {
 			text: "Lead the way in sustainable corporate responsibility with Kennix's comprehensive waste management solutions. From waste audits to sustainable packaging initiatives, our technology-driven approach enables corporations to minimize waste generation, reduce carbon footprint, and enhance brand reputation.",
 		},
 	],
-	image: "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689493104/business_types_atuctw.jpg",
+	image: "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723131603/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-2154889578-612x612_rruirb.jpg",
 };
