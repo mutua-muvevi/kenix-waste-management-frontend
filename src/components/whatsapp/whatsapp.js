@@ -12,14 +12,14 @@ const Whatsapp = ({children}) => {
 	const theme = useTheme();
 
 	const handleWhatsappClick = () => {
-		const phoneNumber = "+254700000000";
+		const phoneNumber = "+254111220195";
 		const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
 
 		window.open(whatsappLink, "_blank");
 	};
 
 	const handleCalls = () => {
-		const phoneNumber = "+254700000001";
+		const phoneNumber = "+254111220195";
 		const callLink = `tel:${phoneNumber}`;
 
 		window.location.href = callLink;
