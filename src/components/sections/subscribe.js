@@ -26,7 +26,7 @@ const Person =
 const emailCapture = {
 	title: "Stay Informed",
 	subtitle:
-		"Sign up for our newsletter to stay up-to-date with the latest developments, industry insights, and exclusive offers in waste management. Don't miss out on valuable information that can help optimize your waste management practices and drive sustainability.",
+		"Subscribe to our newsletter to stay up-to-date with the latest developments, industry insights, and exclusive offers in waste management. Don't miss out on valuable information that can help optimize your waste management practices and drive sustainability.",
 };
 
 const INITIAL_FORM_STATE = {
@@ -70,7 +70,6 @@ const Subscribe = ({ subscibe }) => {
 
 	return (
 		<StyledWrapper maxWidth="xl">
-			{console.log(theme)}
 			<Stack
 				direction="column"
 				justifyContent="center"
@@ -126,7 +125,7 @@ const Subscribe = ({ subscibe }) => {
 									inputColor="#ffffff"
 								/>
 								<StyledButton variant="outlined" type="submit">
-									Join us
+									Subscribe
 								</StyledButton>
 							</Stack>
 						</Stack>
