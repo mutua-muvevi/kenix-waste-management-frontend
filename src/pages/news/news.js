@@ -7,7 +7,7 @@ import ReusableBanner from "src/components/sections/banner";
 import ReusableNewsCards from "src/components/sections/newscards";
 import NewsList from "src/content/news";
 
-const image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1689116307/blogs_uoga2t.jpg";
+const image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723143144/12623_scwgyq.jpg";
 const subtitle =  "Welcome to 'Kenix Waste Solutions Insights', your resource for understanding the intricate choreography of technology in today's ever-evolving digital landscape. Here we chronicle our ongoing innovations, exploring the interface of technology and industry, be it healthcare, education, or beyond. Our timely updates shed light on the latest tech trends, our pioneering research, and the revolutionary solutions we deliver. Through these insights, we invite you into our commitment to progress and excellence. Engage with 'Kenix Waste Solutions Insights' - illuminate your path to digital transformation."
 
 const newsTitle = "Kenix Waste Solutions Insights: Your Beacon in the Digital Landscape"
@@ -25,7 +25,7 @@ const News = () => {
 					title="News Articles"
 					subtitle={subtitle}
 					image={image}
-					height="60vh"
+					height="80vh"
 				/>
 				<ReusableNewsCards
 					title={newsTitle}

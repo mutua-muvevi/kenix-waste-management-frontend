@@ -21,8 +21,9 @@ const Domain = () => {
 					title="Our Domain"
 					subtitle={subtitle}
 					image={image}
-					height="60vh"
+					height="100vh"
 					alignItems="center"
+					fullHeight
 				/>
 				<DomainCards/>
 			</StyledWrapper>
