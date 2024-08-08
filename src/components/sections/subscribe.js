@@ -1,4 +1,13 @@
-import { Box, Button, Container, FormGroup, Grid, Stack, Typography } from "@mui/material";
+import {
+	Box,
+	Button,
+	Container,
+	FormGroup,
+	Grid,
+	Stack,
+	Typography,
+	useTheme,
+} from "@mui/material";
 import { styled } from "@mui/system";
 
 import { Formik, Form } from "formik";
@@ -7,14 +16,17 @@ import * as Yup from "yup";
 import TextfieldWrapper from "../formui/textfield/textfield";
 import { connect } from "react-redux";
 import { postEmail } from "src/redux/email/action";
+import useResponsive from "src/hooks/useResponsive";
 
-const Image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1687991987/images/tech_imrfwj.jpg";
-const Person ="https://res.cloudinary.com/dbj0t0zym/image/upload/v1687987718/images/whyus_uw0loc.jpg";
-
+const Image =
+	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723057070/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1605157750-612x612_nfrlrt.jpg";
+const Person =
+	"https://res.cloudinary.com/dbj0t0zym/image/upload/v1687987718/images/whyus_uw0loc.jpg";
 
 const emailCapture = {
 	title: "Stay Informed",
-	subtitle: "Sign up for our newsletter to stay up-to-date with the latest developments, industry insights, and exclusive offers in waste management. Don't miss out on valuable information that can help optimize your waste management practices and drive sustainability.",
+	subtitle:
+		"Sign up for our newsletter to stay up-to-date with the latest developments, industry insights, and exclusive offers in waste management. Don't miss out on valuable information that can help optimize your waste management practices and drive sustainability.",
 };
 
 const INITIAL_FORM_STATE = {
@@ -31,95 +43,105 @@ const FORM_VALIDATION = Yup.object().shape({
 
 const StyledWrapper = styled(Container)(({ theme }) => ({
 	borderRadius: theme.shape.borderRadius,
-	backgroundImage: `linear-gradient(to bottom, rgba(19, 102, 255, 0.4), rgba(19, 102, 255, 0.5)), url(${Image})`,
-	backgroundSize: "cover"
+	backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${Image})`,
+	backgroundSize: "cover",
+	backgroundPosition: "center",
+	height: "70vh",
 }));
 
-const StyledGrid = styled(Grid)(({ theme }) => ({
-	
-}));
-
-const StyledGridItemText = styled(Grid)(({ theme }) => ({
-	paddingTop: "50px",
-	paddingBottom: "50px",
-}));
+const StyledGrid = styled(Grid)(({ theme }) => ({}));
 
 const StyledButton = styled(Button)(({ theme }) => ({
 	color: "#ffffff",
 	borderColor: "#ffffff",
 	width: "200px",
-	borderRadius: "5px"
-}))
+	borderRadius: "5px",
+}));
 
-const imageStyle = {
-	width: "350px",
-	position: "relative"
-}
+const Subscribe = ({ subscibe }) => {
+	const theme = useTheme();
 
-const Subscribe = ({subscibe}) => {
 	const submitHandler = (values, { resetForm }) => {
-		subscibe(values)
+		subscibe(values);
 		resetForm();
 	};
 
+	const isDesktop = useResponsive("up", "lg");
+
 	return (
 		<StyledWrapper maxWidth="xl">
-			<StyledGrid container spacing={3}>
-				<StyledGridItemText item xs={12} sm={12} md={12} lg={6} xl={6}>
-					<Stack direction="column" justifyContent="center" sx={{ height: "100%"}}>
-						<Formik
-							initialValues={{
-								...INITIAL_FORM_STATE,
-							}}
-							validationSchema={FORM_VALIDATION}
-							onSubmit={submitHandler}
-						>
-							<Form>
-								<Stack direction="column"  spacing={3}>
-									<Typography variant="h2" style={{ color: "#ffffff" }} textAlign="justify">
-										{emailCapture.title}
-									</Typography>
+			{console.log(theme)}
+			<Stack
+				direction="column"
+				justifyContent="center"
+				sx={{
+					height: "100%",
+					display: "flex",
+					justifyContent: "center",
+					alignItems: "center",
+					textAlign: "center",
+					p: 5,
+					width: isDesktop ? "60vw" : "100%",
+					mx: "auto",
+					my: 3,
+				}}
+			>
+				<Formik
+					initialValues={{
+						...INITIAL_FORM_STATE,
+					}}
+					validationSchema={FORM_VALIDATION}
+					onSubmit={submitHandler}
+				>
+					<Form>
+						<Stack direction="column" spacing={3} sx={{}}>
+							<Typography
+								variant="h2"
+								style={{ color: "#ffffff" }}
+								textAlign="center"
+							>
+								{emailCapture.title}
+							</Typography>
 
-									<Typography variant="subtitle1" style={{ color: "#ffffff" }} textAlign="justify">
-										{emailCapture.subtitle}
-									</Typography>
+							<Typography
+								variant="h5"
+								style={{ color: "#ffffff" }}
+								textAlign="justify"
+							>
+								{emailCapture.subtitle}
+							</Typography>
 
-									<Stack spacing={3} direction="row" alignItems="center" justifyContent="left">
-										<TextfieldWrapper
-											name="email"
-											variant="standard"
-											size="small"
-											placeholder="Enter your email to subscribe"
-											inputColor="#ffffff"
-										/>
-										<StyledButton variant="outlined" type="submit">
-											Join us
-										</StyledButton>
-
-									</Stack>
-								</Stack>
-							</Form>
-						</Formik>
-					</Stack>
-				</StyledGridItemText>
-
-				<Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
-					<Stack
-						justifyContent="center"
-						alignItems="center"
-					>
-						<img src={Person} alt="Subscribe to Afrogorithm Mail List" style={imageStyle}/>
-					</Stack>
-				</Grid>
-			</StyledGrid>
+							<Stack
+								spacing={3}
+								direction="row"
+								alignItems="center"
+								justifyContent="center"
+							>
+								<TextfieldWrapper
+									name="email"
+									variant="filled"
+									label="Email"
+									size="small"
+									placeholder="Enter your email to subscribe"
+									inputColor="#ffffff"
+								/>
+								<StyledButton variant="outlined" type="submit">
+									Join us
+								</StyledButton>
+							</Stack>
+						</Stack>
+					</Form>
+				</Formik>
+			</Stack>
+			<StyledGrid container spacing={3}></StyledGrid>
 		</StyledWrapper>
 	);
 };
 
-const mapStateToProps = ({}) => ({})
+const mapStateToProps = ({}) => ({});
 
 const mapDispatchToProps = (dispatch) => ({
-	subscibe: (values) => dispatch(postEmail(values))
-})
+	subscibe: (values) => dispatch(postEmail(values)),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Subscribe);
