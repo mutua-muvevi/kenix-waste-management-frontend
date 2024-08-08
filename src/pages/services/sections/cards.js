@@ -73,6 +73,8 @@ const ServicesCards = ({ selectService }) => {
 										xl={4}
 									>
 										<Card>
+											{/* <CardMedia
+											/> */}
 											<CardActionArea
 												onClick={() =>
 													selectServiceHandler(

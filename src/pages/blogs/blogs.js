@@ -8,7 +8,7 @@ import BlogList from "src/content/blogs";
 import ReusableBlogsCards from "src/components/sections/blogscards";
 
 const image =
-	"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689116307/blogs_uoga2t.jpg";
+	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723143395/2147664242_hb9ivl.jpg";
 const subtitle =
 	"Kenix Waste Solutions stives to be the market leader when it comes to offering superior waste management services. Visit our blog section to explore the latest trends, insights, and strategies to address waste management challenges.";
 
@@ -27,7 +27,8 @@ const Blogs = () => {
 					title="Blog Articles"
 					subtitle={subtitle}
 					image={image}
-					height="60vh"
+					height="70vh"
+					fullHeight
 				/>
 				<ReusableBlogsCards
 					title={newsTitle}

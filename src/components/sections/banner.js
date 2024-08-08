@@ -2,7 +2,7 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 
 
-const ReusableBanner = ({ image, height, title, subtitle }) => {
+const ReusableBanner = ({ image, height, title, subtitle, fullHeight }) => {
 	
 	const StyledWrapper = styled(Box)(({ theme }) => ({
 		backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(${image})`,
@@ -17,7 +17,7 @@ const ReusableBanner = ({ image, height, title, subtitle }) => {
 		paddingBottom: "70px",
 		display: "flex",
 		flexDirection: "column",
-		justifyContent: "flex-end",
+		justifyContent: fullHeight ? "center" : "flex-end",
 	}));
 
 	return (

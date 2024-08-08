@@ -6,7 +6,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management offers comprehensive waste collection services for residential, commercial, and industrial sectors. Our streamlined collection processes ensure efficient and timely pickup, contributing to a cleaner environment and healthier communities.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723144896/KENIX%20WASTE%20SOLUTIONS%20LTD/a-heartwarming-image-of-two-joyful-kenix-waste-man-_LWX-d4OSBSYjAZe2J4gvQ-u1g92-5qR8mKE5jFAtUQWw_zv1hzm.jpg",
 		video: "",
 		content: [
 			{
@@ -66,7 +66,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management employs cutting-edge recycling technologies to maximize resource recovery and minimize environmental impact. Our advanced facilities and processes enable us to recycle a wide range of materials, diverting waste from landfills and promoting a circular economy.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723141436/KENIX%20WASTE%20SOLUTIONS%20LTD/two-brown-african-kenix-employees-sorting-waste-in-vJsU7e_uS8ikLZsdNZa4xg-0Q08VU_PTLqpguT3XP45CA_pzrym6.jpg",
 		video: "",
 		content: [
 			{

@@ -7,7 +7,7 @@ import SingleServiceEntry from "./sections/entry";
 import Page from "src/components/ui/Page";
 import ParagraphList from "src/components/sections/paragraphList";
 
-const image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1688897567/teck_background_flkexe.jpg"
+const image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723144895/KENIX%20WASTE%20SOLUTIONS%20LTD/two-brown-african-kenix-employees-collecting-waste-NCYbsED1TBSI7dmlrlP-Lw-n6Y86nEiRqqzjYX-mBRhAw_bgllwt.jpg"
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 
