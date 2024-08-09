@@ -79,13 +79,13 @@ const Home = () => {
 				<HomeDomain />
 				<HomeTestimonial />
 				<Subscribe />
-				<ReusableNewsCards
+				{/* <ReusableNewsCards
 					title={newsTitle}
 					subtitle={newsSubtitle}
 					chipText="News and Updates"
 					alignItems="center"
 					list={sortedBlogList}
-				/>
+				/> */}
 				<ContactForm />
 			</StyledWrapper>
 		</Page>
