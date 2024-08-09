@@ -91,6 +91,9 @@ const ServicesCards = ({ selectService }) => {
 													<Stack
 														direction="column"
 														spacing={3}
+														sx={{
+															minHeight: 200,
+														}}
 													>
 														<Stack
 															direction="row"

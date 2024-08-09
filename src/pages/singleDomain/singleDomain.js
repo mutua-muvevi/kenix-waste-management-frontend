@@ -7,26 +7,28 @@ import SingleDomainEntry from "./sections/entry";
 import Page from "src/components/ui/Page";
 import ParagraphList from "src/components/sections/paragraphList";
 
-const image = "https://res.cloudinary.com/dbj0t0zym/image/upload/v1688897567/teck_background_flkexe.jpg"
+const image =
+	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723239867/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1604931037-612x612_codz95_srm79k.png";
 
-const StyledWrapper = styled(Box)(({ theme }) => ({
+const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
-}))
-
-const SingleDomain = ({domain}) => {
-	
-
+const SingleDomain = ({ domain }) => {
 	return (
-		<Page title={domain.title + " || Kenix Waste Solutions Domains || Kenix Waste Solutions | Leading Waste Management Solutions"}>
+		<Page
+			title={
+				domain.title +
+				" || Kenix Waste Solutions Domains || Kenix Waste Solutions | Leading Waste Management Solutions"
+			}
+		>
 			<StyledWrapper>
 				<ReusableBanner
 					title={domain.title}
 					subtitle={domain.subtitle}
 					image={image}
-					height="60vh"
+					height="85vh"
 					alignItems="center"
 				/>
-				<SingleDomainEntry/>
+				<SingleDomainEntry />
 				<ParagraphList
 					content={domain.content}
 					icon="game-icons:cash"
@@ -36,11 +38,11 @@ const SingleDomain = ({domain}) => {
 				/>
 			</StyledWrapper>
 		</Page>
-	)
-}
+	);
+};
 
-const mapStateToProps = ({domain}) => ({
-	domain: domain.domain
-})
+const mapStateToProps = ({ domain }) => ({
+	domain: domain.domain,
+});
 
-export default connect(mapStateToProps)(SingleDomain)
+export default connect(mapStateToProps)(SingleDomain);
