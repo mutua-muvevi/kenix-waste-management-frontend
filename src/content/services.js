@@ -127,7 +127,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management specializes in hazardous waste management, ensuring safe handling, transportation, and disposal of hazardous materials. Our trained professionals adhere to strict regulations to mitigate environmental risks and protect public health.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723211690/KENIX%20WASTE%20SOLUTIONS%20LTD/2150957734_trxpfo.jpg",
 		video: "",
 		content: [
 			{
@@ -187,7 +187,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management offers organic waste composting services to transform organic waste into nutrient-rich compost for agricultural and landscaping purposes. Our sustainable solution diverts organic waste from landfills, reducing methane emissions and promoting soil health.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033631/KENIX%20WASTE%20SOLUTIONS%20LTD/compost-grinder-3389086_1920_xxi5sv.jpg",
 		video: "",
 		content: [
 			{
@@ -318,7 +318,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management provides expert environmental consulting and compliance services to help businesses and municipalities meet regulatory requirements and achieve their sustainability goals. Our team of experienced consultants offers tailored solutions to address a wide range of environmental challenges.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/consulting_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723216591/KENIX%20WASTE%20SOLUTIONS%20LTD/20689_rcck5v.jpg",
 		video: "",
 		content: [
 			{

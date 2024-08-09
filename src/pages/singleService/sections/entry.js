@@ -15,17 +15,21 @@ const SingleServiceEntry = ({service}) => {
 		<StyledWrapper>
 			<StyledContainer maxWidth="xl">
 				<Stack direction="column" spacing={3}>
+					<Typography variant="h6" textAlign="justify">
+						{service.mainText}
+					</Typography>
 					<Card>
 						<CardMedia
 							component="img"
 							src={service.thumbnail}
 							alt={service.title}
-							height={500}
+							height={600}
+							sx={{
+								backgroundPosition: "center",
+								backgroundSize: "cover",
+							}}
 						/>
 					</Card>
-					<Typography variant="h6">
-						{service.mainText}
-					</Typography>
 				</Stack>
 			</StyledContainer>
 		</StyledWrapper>
