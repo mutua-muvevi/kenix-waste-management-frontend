@@ -70,26 +70,26 @@ export const navConfig = [
 	// 		}
 	// 	]
 	// },
-	{
-		title: "Resources",
-		icon: <Iconify icon="fluent:news-16-filled"/>,
-		path: "/landing/news",
-		children: [
-			{
-				subheader: "",
-				items: [
-					{
-						title: "Our News Articles",
-						path: "/landing/news"
-					},
-					{
-						title: "Our Blog Articles",
-						path: "/landing/blogs"
-					},
-				]
-			},
-		]
-	},
+	// {
+	// 	title: "Resources",
+	// 	icon: <Iconify icon="fluent:news-16-filled"/>,
+	// 	path: "/landing/news",
+	// 	children: [
+	// 		{
+	// 			subheader: "",
+	// 			items: [
+	// 				{
+	// 					title: "Our News Articles",
+	// 					path: "/landing/news"
+	// 				},
+	// 				{
+	// 					title: "Our Blog Articles",
+	// 					path: "/landing/blogs"
+	// 				},
+	// 			]
+	// 		},
+	// 	]
+	// },
 	{
 		title: "Contact",
 		icon: <Iconify icon="material-symbols:contact-support"/>,
