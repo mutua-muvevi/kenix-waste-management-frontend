@@ -16,8 +16,7 @@ const SingleDomain = ({ domain }) => {
 	return (
 		<Page
 			title={
-				domain.title +
-				" || Kenix Waste Solutions Domains || Kenix Waste Solutions | Leading Waste Management Solutions"
+				domain.title + " || Kenix Waste Solutions Domains || Kenix Waste Solutions | Leading Waste Management Solutions"
 			}
 		>
 			<StyledWrapper>
