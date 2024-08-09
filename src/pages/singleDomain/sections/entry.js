@@ -15,18 +15,18 @@ const SingleDomainEntry = ({domain}) => {
 		<StyledWrapper>
 			<StyledContainer maxWidth="xl">
 				<Stack direction="column" spacing={3}>
+					<Typography variant="h6" >
+						{domain.mainText}
+					</Typography>
+					
 					<Card>
 						<CardMedia
 							component="img"
 							src={domain.thumbnail}
 							alt={domain.title}
-							height={500}
+							height={600}
 						/>
 					</Card>
-					
-					<Typography variant="h6" >
-						{domain.mainText}
-					</Typography>
 				</Stack>
 			</StyledContainer>
 		</StyledWrapper>

@@ -5,8 +5,7 @@ const DomainList = [
 		subtitle: "Sustainable Solutions for a Greener Future",
 		mainText:
 			"At Kennix Waste Management, we are dedicated to recycling and resource recovery to promote sustainability and reduce landfill waste. Our innovative recycling programs and advanced recovery techniques ensure that materials such as paper, plastic, glass, and metals are efficiently processed and repurposed, contributing to a circular economy and minimizing environmental impact.",
-		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/recycling_waste_management.jpg",
+		thumbnail: "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723243720/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1492409068-612x612_jkmpte_onbvso.png",
 		video: "",
 		content: [
 			{
@@ -46,7 +45,7 @@ const DomainList = [
 			{
 				title: "Resource Recovery",
 				subtitle: "Maximizing Value from Waste",
-				image: "",
+				image: "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723244238/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1500360871-612x612_zby4nx_xyibao.png",
 				paragraphs: [
 					"Resource recovery involves extracting valuable materials and energy from waste streams. Our advanced technologies and processes ensure that we recover the maximum value from waste, reducing the amount of waste sent to landfills and promoting environmental sustainability.",
 					"By converting waste into resources such as compost, biogas, and recycled raw materials, we support a circular economy and contribute to a greener future.",
@@ -86,7 +85,7 @@ const DomainList = [
 		mainText:
 			"Kennix Waste Management offers expert environmental consulting and compliance services to help businesses navigate complex environmental regulations and implement sustainable practices. Our team of specialists provides comprehensive assessments, strategy development, and compliance support, ensuring that your operations meet regulatory requirements and environmental standards.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/environmental_consulting.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723244513/KENIX%20WASTE%20SOLUTIONS%20LTD/2149142868_qqscms.jpg",
 		video: "",
 		content: [
 			{
@@ -166,7 +165,7 @@ const DomainList = [
 		mainText:
 			"Kennix Waste Management offers comprehensive waste collection and transportation services tailored to meet the needs of residential, commercial, and industrial clients. Our fleet of modern vehicles and trained personnel ensure the safe, efficient, and environmentally responsible transport of all types of waste, helping communities maintain cleanliness and sustainability.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/waste_collection.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723244756/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1315290086-612x612_ksbwtm_falff6.png",
 		video: "",
 		content: [
 			{
@@ -247,7 +246,7 @@ const DomainList = [
 		mainText:
 			"Kennix Waste Management specializes in the safe and compliant handling, treatment, and disposal of hazardous waste. We offer comprehensive hazardous waste management services for various industries, ensuring that hazardous materials are managed responsibly to protect human health and the environment.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/hazardous_waste_management.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723211678/KENIX%20WASTE%20SOLUTIONS%20LTD/2150957714_bqrpgm.jpg",
 		video: "",
 		content: [
 			{
@@ -327,7 +326,7 @@ const DomainList = [
 		mainText:
 			"At Kennix Waste Management, we specialize in the collection, treatment, and repurposing of organic waste. Our comprehensive organic waste management services convert food waste, yard trimmings, and other organic materials into valuable resources like compost and bioenergy. By diverting organic waste from landfills, we reduce greenhouse gas emissions and contribute to a more sustainable environment.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/organic_waste_management.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723245033/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1317913503-612x612_zszwvd_aj1jxa.png",
 		video: "",
 		content: [
 			{
@@ -407,7 +406,7 @@ const DomainList = [
 		mainText:
 			"Kennix Waste Management provides specialized services for the handling, treatment, and disposal of liquid waste. Our comprehensive solutions ensure that liquid waste from various sources, including industrial, commercial, and residential, is managed safely and efficiently. By employing advanced treatment technologies, we minimize environmental impact and comply with regulatory standards.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689266194/liquid_waste_management.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723245357/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-1497774805-612x612_ni7evc_hbcpdo.png",
 		video: "",
 		content: [
 			{
