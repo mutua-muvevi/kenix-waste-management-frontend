@@ -59,187 +59,7 @@ const ServiceList = [
 			},
 		],
 	},
-	{
-		icon: "fluent:recycling-24-regular",
-		title: "Advanced Recycling Technologies",
-		subtitle: "Innovative Solutions for Resource Recovery",
-		mainText:
-			"Kennix Waste Management employs cutting-edge recycling technologies to maximize resource recovery and minimize environmental impact. Our advanced facilities and processes enable us to recycle a wide range of materials, diverting waste from landfills and promoting a circular economy.",
-		thumbnail:
-			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723141436/KENIX%20WASTE%20SOLUTIONS%20LTD/two-brown-african-kenix-employees-sorting-waste-in-vJsU7e_uS8ikLZsdNZa4xg-0Q08VU_PTLqpguT3XP45CA_pzrym6.jpg",
-		video: "",
-		content: [
-			{
-				title: "Material Recovery Facilities",
-				subtitle: "Efficient Sorting and Processing",
-				image: "",
-				paragraphs: [
-					"Our material recovery facilities utilize state-of-the-art sorting technologies to separate recyclable materials from mixed waste streams.",
-					"We employ automated processes and quality control measures to ensure high purity levels and marketability of recycled materials.",
-				],
-				list: {
-					title: "Our Material Recovery Services Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Automated Sorting Systems",
-							text: "Advanced sorting technologies for efficient separation of recyclable materials.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Quality Assurance Processes",
-							text: "Stringent quality control measures to maintain high purity levels in recycled materials.",
-						},
-					],
-				},
-			},
-			{
-				title: "Innovative Recycling Solutions",
-				subtitle: "Closing the Recycling Loop",
-				image: "",
-				paragraphs: [
-					"Kennix Waste Management develops innovative recycling solutions to address emerging waste streams and maximize material recovery rates.",
-					"We collaborate with industry partners and invest in research and development to continuously improve recycling processes and technologies.",
-				],
-				list: {
-					title: "Our Recycling Innovations Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "New Waste Stream Solutions",
-							text: "Development of specialized recycling processes for emerging waste streams.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Research and Development Initiatives",
-							text: "Investment in R&D to enhance recycling technologies and improve material recovery rates.",
-						},
-					],
-				},
-			},
-		],
-	},
 
-	{
-		icon: "fluent:chemical-24-regular",
-		title: "Hazardous Waste Management Solutions",
-		subtitle: "Safe Handling and Disposal of Hazardous Materials",
-		mainText:
-			"Kennix Waste Management specializes in hazardous waste management, ensuring safe handling, transportation, and disposal of hazardous materials. Our trained professionals adhere to strict regulations to mitigate environmental risks and protect public health.",
-		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
-		video: "",
-		content: [
-			{
-				title: "Expert Hazardous Waste Handling",
-				subtitle: "Compliance and Safety Standards",
-				image: "",
-				paragraphs: [
-					"Our team of hazardous waste experts ensures compliance with regulatory requirements and industry standards for the safe handling and disposal of hazardous materials.",
-					"We provide comprehensive hazardous waste management services, from initial assessment and packaging to transportation and final disposal, ensuring minimal environmental impact.",
-				],
-				list: {
-					title: "Our Hazardous Waste Management Services Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Regulatory Compliance",
-							text: "Adherence to local, national, and international regulations governing hazardous waste management.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Safety Protocols",
-							text: "Implementation of strict safety protocols to protect personnel and the environment during hazardous waste handling.",
-						},
-					],
-				},
-			},
-			{
-				title: "Specialized Hazardous Waste Disposal",
-				subtitle: "Customized Solutions for Unique Requirements",
-				image: "",
-				paragraphs: [
-					"Kennix Waste Management offers specialized disposal solutions for various types of hazardous waste, including chemical, biological, and radioactive materials.",
-					"Our experienced team assesses the unique characteristics of each hazardous waste stream and develops customized disposal plans to ensure safe and compliant handling.",
-				],
-				list: {
-					title: "Our Hazardous Waste Disposal Services Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Customized Disposal Plans",
-							text: "Tailored disposal solutions based on the specific characteristics and requirements of each hazardous waste stream.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Safe Transportation",
-							text: "Secure and compliant transportation of hazardous materials to designated disposal facilities.",
-						},
-					],
-				},
-			},
-		],
-	},
-	{
-		icon: "fluent:leaf-one-24-regular",
-		title: "Organic Waste Composting Solutions",
-		subtitle: "Transforming Organic Waste into Nutrient-Rich Compost",
-		mainText:
-			"Kennix Waste Management offers organic waste composting services to transform organic waste into nutrient-rich compost for agricultural and landscaping purposes. Our sustainable solution diverts organic waste from landfills, reducing methane emissions and promoting soil health.",
-		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/webdev_wke7zy.jpg",
-		video: "",
-		content: [
-			{
-				title: "Efficient Organic Waste Processing",
-				subtitle: "Turning Waste into a Valuable Resource",
-				image: "",
-				paragraphs: [
-					"Our organic waste composting facilities efficiently process organic waste materials, including food scraps, yard waste, and agricultural residues.",
-					"We utilize proven composting techniques and technologies to accelerate the decomposition process and produce high-quality compost suitable for various applications.",
-				],
-				list: {
-					title: "Our Organic Waste Composting Services Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Compost Production",
-							text: "Conversion of organic waste materials into nutrient-rich compost through controlled decomposition.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Quality Assurance",
-							text: "Stringent quality control measures to ensure the safety and efficacy of compost products.",
-						},
-					],
-				},
-			},
-			{
-				title: "Customized Composting Solutions",
-				subtitle: "Tailored to Your Organic Waste Management Needs",
-				image: "",
-				paragraphs: [
-					"Kennix Waste Management offers customized composting solutions to meet the unique organic waste management needs of our clients.",
-					"We work closely with businesses, municipalities, and agricultural producers to develop tailored composting programs that maximize waste diversion and environmental benefits.",
-				],
-				list: {
-					title: "Our Customized Composting Services Include:",
-					items: [
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Waste Assessment",
-							text: "Comprehensive assessment of organic waste streams to identify composting opportunities and optimization strategies.",
-						},
-						{
-							icon: "ri-checkbox-circle-fill",
-							title: "Program Development",
-							text: "Customized composting program development, implementation, and monitoring to achieve waste reduction goals.",
-						},
-					],
-				},
-			},
-		],
-	},
 	{
 		icon: "mdi:recycle",
 		title: "Recycling and Resource Recovery",
@@ -247,7 +67,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management offers comprehensive recycling and resource recovery services to minimize waste and maximize the value of recyclable materials. Our innovative solutions help businesses and communities reduce their environmental footprint and promote a circular economy.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/recycling_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723219710/KENIX%20WASTE%20SOLUTIONS%20LTD/88681447936_oa01fg.png",
 		video: "",
 		content: [
 			{
@@ -310,6 +130,133 @@ const ServiceList = [
 			},
 		],
 	},
+
+
+
+	{
+		icon: "fluent:chemical-24-regular",
+		title: "Hazardous Waste Management Solutions",
+		subtitle: "Safe Handling and Disposal of Hazardous Materials",
+		mainText:
+			"Kennix Waste Management specializes in hazardous waste management, ensuring safe handling, transportation, and disposal of hazardous materials. Our trained professionals adhere to strict regulations to mitigate environmental risks and protect public health.",
+		thumbnail:
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723211690/KENIX%20WASTE%20SOLUTIONS%20LTD/2150957734_trxpfo.jpg",
+		video: "",
+		content: [
+			{
+				title: "Expert Hazardous Waste Handling",
+				subtitle: "Compliance and Safety Standards",
+				image: "",
+				paragraphs: [
+					"Our team of hazardous waste experts ensures compliance with regulatory requirements and industry standards for the safe handling and disposal of hazardous materials.",
+					"We provide comprehensive hazardous waste management services, from initial assessment and packaging to transportation and final disposal, ensuring minimal environmental impact.",
+				],
+				list: {
+					title: "Our Hazardous Waste Management Services Include:",
+					items: [
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Regulatory Compliance",
+							text: "Adherence to local, national, and international regulations governing hazardous waste management.",
+						},
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Safety Protocols",
+							text: "Implementation of strict safety protocols to protect personnel and the environment during hazardous waste handling.",
+						},
+					],
+				},
+			},
+			{
+				title: "Specialized Hazardous Waste Disposal",
+				subtitle: "Customized Solutions for Unique Requirements",
+				image: "",
+				paragraphs: [
+					"Kennix Waste Management offers specialized disposal solutions for various types of hazardous waste, including chemical, biological, and radioactive materials.",
+					"Our experienced team assesses the unique characteristics of each hazardous waste stream and develops customized disposal plans to ensure safe and compliant handling.",
+				],
+				list: {
+					title: "Our Hazardous Waste Disposal Services Include:",
+					items: [
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Customized Disposal Plans",
+							text: "Tailored disposal solutions based on the specific characteristics and requirements of each hazardous waste stream.",
+						},
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Safe Transportation",
+							text: "Secure and compliant transportation of hazardous materials to designated disposal facilities.",
+						},
+					],
+				},
+			},
+		],
+	},
+	
+	{
+		icon: "fluent:leaf-one-24-regular",
+		title: "Organic Waste Composting Solutions",
+		subtitle: "Transforming Organic Waste into Nutrient-Rich Compost",
+		mainText:
+			"Kennix Waste Management offers organic waste composting services to transform organic waste into nutrient-rich compost for agricultural and landscaping purposes. Our sustainable solution diverts organic waste from landfills, reducing methane emissions and promoting soil health.",
+		thumbnail:
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033631/KENIX%20WASTE%20SOLUTIONS%20LTD/compost-grinder-3389086_1920_xxi5sv.jpg",
+		video: "",
+		content: [
+			{
+				title: "Efficient Organic Waste Processing",
+				subtitle: "Turning Waste into a Valuable Resource",
+				image: "",
+				paragraphs: [
+					"Our organic waste composting facilities efficiently process organic waste materials, including food scraps, yard waste, and agricultural residues.",
+					"We utilize proven composting techniques and technologies to accelerate the decomposition process and produce high-quality compost suitable for various applications.",
+				],
+				list: {
+					title: "Our Organic Waste Composting Services Include:",
+					items: [
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Compost Production",
+							text: "Conversion of organic waste materials into nutrient-rich compost through controlled decomposition.",
+						},
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Quality Assurance",
+							text: "Stringent quality control measures to ensure the safety and efficacy of compost products.",
+						},
+					],
+				},
+			},
+			{
+				title: "Customized Composting Solutions",
+				subtitle: "Tailored to Your Organic Waste Management Needs",
+				image: "",
+				paragraphs: [
+					"Kennix Waste Management offers customized composting solutions to meet the unique organic waste management needs of our clients.",
+					"We work closely with businesses, municipalities, and agricultural producers to develop tailored composting programs that maximize waste diversion and environmental benefits.",
+				],
+				list: {
+					title: "Our Customized Composting Services Include:",
+					items: [
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Waste Assessment",
+							text: "Comprehensive assessment of organic waste streams to identify composting opportunities and optimization strategies.",
+						},
+						{
+							icon: "ri-checkbox-circle-fill",
+							title: "Program Development",
+							text: "Customized composting program development, implementation, and monitoring to achieve waste reduction goals.",
+						},
+					],
+				},
+			},
+		],
+	},
+
+
+
 	{
 		icon: "mdi:earth",
 		title: "Environmental Consulting and Compliance",
@@ -318,7 +265,7 @@ const ServiceList = [
 		mainText:
 			"Kennix Waste Management provides expert environmental consulting and compliance services to help businesses and municipalities meet regulatory requirements and achieve their sustainability goals. Our team of experienced consultants offers tailored solutions to address a wide range of environmental challenges.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/consulting_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723216591/KENIX%20WASTE%20SOLUTIONS%20LTD/20689_rcck5v.jpg",
 		video: "",
 		content: [
 			{
@@ -382,84 +329,15 @@ const ServiceList = [
 		],
 	},
 
-	{
-		icon: "mdi:truck-delivery-outline",
-		title: "Waste Collection and Transportation",
-		subtitle: "Efficient and Reliable Waste Management Services",
-		mainText:
-			"Kennix Waste Management provides top-notch waste collection and transportation services. Our state-of-the-art fleet and experienced team ensure timely and efficient collection, adhering to all safety and environmental standards. We cater to residential, commercial, and industrial clients, offering customized solutions to meet their unique waste management needs.",
-		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/collection_transportation_wke7zy.jpg",
-		video: "",
-		content: [
-			{
-				title: "Residential Waste Collection",
-				subtitle: "Convenient and Hassle-Free Service for Homes",
-				image: "",
-				paragraphs: [
-					"Our residential waste collection services are designed to make waste disposal easy and convenient for households. We offer regular pickup schedules, reliable service, and ensure proper disposal of household waste.",
-					"We are committed to maintaining a clean and healthy environment in residential areas by providing efficient and environmentally responsible waste collection services.",
-				],
-				list: {
-					title: "Our Residential Waste Collection Services Include:",
-					items: [
-						{
-							icon: "mdi:home",
-							title: "Scheduled Pickups",
-							text: "Regularly scheduled waste collection services for homes.",
-						},
-						{
-							icon: "mdi:home",
-							title: "Special Collection Services",
-							text: "Additional pickups for bulky items or special waste.",
-						},
-						{
-							icon: "mdi:home",
-							title: "Eco-Friendly Disposal",
-							text: "Environmentally responsible disposal methods for household waste.",
-						},
-					],
-				},
-			},
-			{
-				title: "Commercial and Industrial Waste Collection",
-				subtitle: "Tailored Solutions for Businesses",
-				image: "",
-				paragraphs: [
-					"Kennix Waste Management offers customized waste collection and transportation services for commercial and industrial clients. We understand the unique waste management needs of businesses and provide flexible solutions that ensure efficient waste handling and compliance with regulatory standards.",
-					"Our services help businesses maintain clean and safe premises, contributing to a healthier environment and operational efficiency.",
-				],
-				list: {
-					title: "Our Commercial and Industrial Waste Collection Services Include:",
-					items: [
-						{
-							icon: "mdi:office-building",
-							title: "Customized Collection Plans",
-							text: "Tailored waste collection schedules to suit business operations.",
-						},
-						{
-							icon: "mdi:office-building",
-							title: "Specialized Waste Handling",
-							text: "Handling of hazardous, electronic, and other special waste types.",
-						},
-						{
-							icon: "mdi:office-building",
-							title: "Compliance and Reporting",
-							text: "Ensuring compliance with waste management regulations and providing detailed reporting.",
-						},
-					],
-				},
-			},
-		],
-	},
+	
 	{
 		icon: "mdi:dump-truck",
-		title: "Hazardous Waste Management",
+		title: "Biomedical Waste Management",
 		subtitle: "Safe and Compliant Hazardous Waste Disposal",
 		mainText:
 			"Kennix Waste Management specializes in the safe and compliant disposal of hazardous waste. Our expert team is trained to handle, transport, and dispose of hazardous materials in accordance with all regulatory requirements, ensuring the safety of our clients and the environment.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/hazardous_waste_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723238449/KENIX%20WASTE%20SOLUTIONS%20LTD/42190997260_ezctwt.png",
 		video: "",
 		content: [
 			{
@@ -522,70 +400,61 @@ const ServiceList = [
 			},
 		],
 	},
+
 	{
-		icon: "mdi:leaf",
-		title: "Organic Waste Management",
-		subtitle: "Sustainable Solutions for Organic Waste",
+		icon: "fluent:recycling-24-regular",
+		title: "Advanced Recycling Technologies",
+		subtitle: "Innovative Solutions for Resource Recovery",
 		mainText:
-			"Kennix Waste Management provides sustainable solutions for the management and disposal of organic waste. Our services include composting, anaerobic digestion, and other eco-friendly methods to recycle organic waste, reducing landfill use and producing valuable resources such as compost and biogas.",
+			"Kennix Waste Management employs cutting-edge recycling technologies to maximize resource recovery and minimize environmental impact. Our advanced facilities and processes enable us to recycle a wide range of materials, diverting waste from landfills and promoting a circular economy.",
 		thumbnail:
-			"https://res.cloudinary.com/dbj0t0zym/image/upload/v1689024261/organic_waste_wke7zy.jpg",
+			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723141436/KENIX%20WASTE%20SOLUTIONS%20LTD/two-brown-african-kenix-employees-sorting-waste-in-vJsU7e_uS8ikLZsdNZa4xg-0Q08VU_PTLqpguT3XP45CA_pzrym6.jpg",
 		video: "",
 		content: [
 			{
-				title: "Composting Services",
-				subtitle: "Turning Waste into Valuable Resources",
+				title: "Material Recovery Facilities",
+				subtitle: "Efficient Sorting and Processing",
 				image: "",
 				paragraphs: [
-					"Our composting services transform organic waste into nutrient-rich compost, which can be used to enrich soil and support agriculture. This process not only reduces the amount of waste sent to landfills but also creates a valuable resource.",
-					"We handle all types of organic waste, including food scraps, yard waste, and agricultural residues, ensuring they are processed in an environmentally friendly manner.",
+					"Our material recovery facilities utilize state-of-the-art sorting technologies to separate recyclable materials from mixed waste streams.",
+					"We employ automated processes and quality control measures to ensure high purity levels and marketability of recycled materials.",
 				],
 				list: {
-					title: "Our Composting Services Include:",
+					title: "Our Material Recovery Services Include:",
 					items: [
 						{
-							icon: "mdi:compost",
-							title: "Food Waste Composting",
-							text: "Processing food scraps into compost for agricultural and landscaping use.",
+							icon: "ri-checkbox-circle-fill",
+							title: "Automated Sorting Systems",
+							text: "Advanced sorting technologies for efficient separation of recyclable materials.",
 						},
 						{
-							icon: "mdi:compost",
-							title: "Yard Waste Composting",
-							text: "Turning yard clippings, leaves, and other green waste into compost.",
-						},
-						{
-							icon: "mdi:compost",
-							title: "Agricultural Waste Composting",
-							text: "Composting agricultural residues to create nutrient-rich soil amendments.",
+							icon: "ri-checkbox-circle-fill",
+							title: "Quality Assurance Processes",
+							text: "Stringent quality control measures to maintain high purity levels in recycled materials.",
 						},
 					],
 				},
 			},
 			{
-				title: "Anaerobic Digestion",
-				subtitle: "Producing Renewable Energy from Organic Waste",
+				title: "Innovative Recycling Solutions",
+				subtitle: "Closing the Recycling Loop",
 				image: "",
 				paragraphs: [
-					"Anaerobic digestion is a process that breaks down organic waste in the absence of oxygen, producing biogas and digestate. The biogas can be used as a renewable energy source, while the digestate can be used as a fertilizer.",
-					"Our anaerobic digestion services help reduce greenhouse gas emissions and provide a sustainable solution for managing organic waste.",
+					"Kennix Waste Management develops innovative recycling solutions to address emerging waste streams and maximize material recovery rates.",
+					"We collaborate with industry partners and invest in research and development to continuously improve recycling processes and technologies.",
 				],
 				list: {
-					title: "Our Anaerobic Digestion Services Include:",
+					title: "Our Recycling Innovations Include:",
 					items: [
 						{
-							icon: "mdi:gas-cylinder",
-							title: "Biogas Production",
-							text: "Converting organic waste into biogas for use as a renewable energy source.",
+							icon: "ri-checkbox-circle-fill",
+							title: "New Waste Stream Solutions",
+							text: "Development of specialized recycling processes for emerging waste streams.",
 						},
 						{
-							icon: "mdi:gas-cylinder",
-							title: "Digestate Management",
-							text: "Producing digestate that can be used as a fertilizer or soil conditioner.",
-						},
-						{
-							icon: "mdi:gas-cylinder",
-							title: "Facility Operation",
-							text: "Operating and maintaining anaerobic digestion facilities to ensure efficient waste processing.",
+							icon: "ri-checkbox-circle-fill",
+							title: "Research and Development Initiatives",
+							text: "Investment in R&D to enhance recycling technologies and improve material recovery rates.",
 						},
 					],
 				},

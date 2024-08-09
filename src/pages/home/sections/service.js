@@ -3,6 +3,7 @@ import {
 	Card,
 	CardActionArea,
 	CardContent,
+	CardMedia,
 	Container,
 	Grid,
 	Stack,
@@ -65,23 +66,28 @@ const HomeServices = ({ selectService }) => {
 												selectServiceHandler(service)
 											}
 										>
+											<CardMedia
+												src={service.thumbnail}
+												alt={service.title}
+												height={350}
+												component="img"
+											/>
 											<CardContent>
 												<Stack
 													direction="column"
 													spacing={3}
+													sx={{
+														minHeight: 200,
+													}}
 												>
 													<Stack
 														direction="row"
 														justifyContent="left"
 														spacing={3}
 													>
-														<Iconify
-															icon={service.icon}
-															width={50}
-														/>
 														<Stack direction="column">
 															<Typography variant="h5">
-																{service.title}
+																{service?.title}
 															</Typography>
 															<Typography
 																variant="subtitle2"
@@ -95,14 +101,14 @@ const HomeServices = ({ selectService }) => {
 																}
 															>
 																{
-																	service.subtitle
+																	service?.subtitle
 																}
 															</Typography>
 														</Stack>
 													</Stack>
 													<Typography variant="body1">
 														{truncateStr(
-															service.mainText,
+															service?.mainText,
 															200
 														)}
 													</Typography>

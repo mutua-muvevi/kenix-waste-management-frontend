@@ -9,6 +9,7 @@ import HomeServices from "./sections/service";
 import Subscribe from "src/components/sections/subscribe";
 import ContactForm from "src/components/sections/contactform";
 import LeftRightContainered from "src/components/sections/leftrightcontainered";
+import ServicesCards from "../services/sections/cards"
 
 import {
 	leftRightContainerList,
@@ -62,7 +63,8 @@ const Home = () => {
 					paragraphs={whyChooseUs.paragraphs}
 					textGridBackground={textgridBackground}
 				/>
-				<HomeServices />
+				{/* <HomeServices /> */}
+				<ServicesCards/>
 				<LeftRightContainered
 					title={allBusinessTypes.title}
 					subtitle={allBusinessTypes.subtitle}

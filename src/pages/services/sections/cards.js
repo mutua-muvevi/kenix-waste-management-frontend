@@ -7,6 +7,7 @@ import {
 	Card,
 	CardActionArea,
 	CardContent,
+	CardMedia,
 	Container,
 	Grid,
 	Stack,
@@ -73,8 +74,6 @@ const ServicesCards = ({ selectService }) => {
 										xl={4}
 									>
 										<Card>
-											{/* <CardMedia
-											/> */}
 											<CardActionArea
 												onClick={() =>
 													selectServiceHandler(
@@ -82,22 +81,25 @@ const ServicesCards = ({ selectService }) => {
 													)
 												}
 											>
+												<CardMedia
+													src={service.thumbnail}
+													alt={service.title}
+													height={350}
+													component="img"
+												/>
 												<CardContent>
 													<Stack
 														direction="column"
 														spacing={3}
+														sx={{
+															minHeight: 200,
+														}}
 													>
 														<Stack
 															direction="row"
 															justifyContent="left"
 															spacing={3}
 														>
-															<Iconify
-																icon={
-																	service.icon
-																}
-																width={50}
-															/>
 															<Stack direction="column">
 																<Typography variant="h5">
 																	{
