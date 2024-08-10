@@ -7,9 +7,11 @@ import TestimonialsList from "src/content/testimonials";
 
 const subtitle=  "Discover what our clients have to say about their experiences with our services. Read these glowing testimonials and see why we're the best choice for your needs.";
 
+	
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	paddingTop: "100px",
 	paddingBottom: "100px",
+	backgroundColor: theme.palette.background.paper,
 }));
 
 const StyledGrid = styled(Grid)(({ theme }) => ({
@@ -23,6 +25,7 @@ const StyledGridItem = styled(Grid)(({ theme }) => ({
 const StyledCard = styled(Card)(({ theme }) => ({
 	minHeight: "450px",
 	width: "380px",
+	backgroundColor: theme.palette.background.default,
 }))
 
 const styledImage ={
@@ -32,6 +35,8 @@ const styledImage ={
 }
 
 const HomeTestimonial = () => {
+
+
 	return (
 		<StyledWrapper>
 			<Container maxWidth="xl">
