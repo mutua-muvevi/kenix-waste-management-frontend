@@ -37,10 +37,6 @@ const StyledContainer = styled(Container)(({ theme }) => ({
 	paddingBottom: "100px",
 }));
 
-const StyledButton = styled(Button)(({ theme }) => ({
-	padding: "10px",
-}));
-
 const ServicesCards = ({ selectService }) => {
 	const [open, setOpen] = useState(false);
 	const navigate = useNavigate();
@@ -123,7 +119,7 @@ const ServicesCards = ({ selectService }) => {
 																</Typography>
 															</Stack>
 														</Stack>
-														<Typography variant="body1">
+														<Typography variant="body1" textAlign={"justify"}>
 															{truncateStr(
 																service.mainText,
 																200
@@ -144,10 +140,13 @@ const ServicesCards = ({ selectService }) => {
 									xl={12}
 								>
 									<Stack>
-										<StyledButton
+										<Button
 											variant="contained"
 											onClick={() => setOpen(true)}
-											color="primary"
+											sx={{
+												padding: "10px",
+											}}
+											color="secondary"
 											endIcon={
 												<Iconify icon="bi:chat-right-quote-fill" />
 											}
@@ -155,7 +154,7 @@ const ServicesCards = ({ selectService }) => {
 											<Typography variant="h5">
 												Request Service Now
 											</Typography>
-										</StyledButton>
+										</Button>
 									</Stack>
 								</Grid>
 							</Grid>

@@ -8,7 +8,7 @@ const subtitle = "Kennix Waste Management provides tailored waste management sol
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	minHeight: "75vh",
-	backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${Image})`,
+	backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url(${Image})`,
 	backgroundSize: "cover",
 	backgroundAttachment: "fixed",
 	backgroundPosition: "bottom",
@@ -49,7 +49,7 @@ const Banner = () => {
 						What we do: {typing}
 					</Typography>
 
-					<Typography variant="h5" textAlign="justify" sx={{ color: "#ffffff" }}>
+					<Typography variant="h4" textAlign="justify" sx={{ color: "#ffffff", fontWeight: 500 }}>
 						{subtitle}
 					</Typography>
 				</Stack>

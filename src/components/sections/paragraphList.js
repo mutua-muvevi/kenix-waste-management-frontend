@@ -19,10 +19,6 @@ const StyledGrid = styled(Grid)(({ theme }) => ({
 	paddingBottom: "100px",
 }));
 
-const StyledButton = styled(Button)(({ theme }) => ({
-	marginTop: "100px",
-	marginBottom: "100px",
-}));
 
 const ParagraphList = ({ content, chipColor, icon, iconWidth, buttonText, modalTitle }) => {
 	const [ open, setOpen ] = useState(false);
@@ -143,10 +139,11 @@ const ParagraphList = ({ content, chipColor, icon, iconWidth, buttonText, modalT
 
 				<Container maxWidth="xl">
 					<Stack>
-						<StyledButton
+						<Button
 							onClick={() => setOpen(true)}
 							variant="contained"
-							color="primary"
+							color="secondary"
+							sx={{my: "100px"}}
 							endIcon={
 								<Iconify
 									width={iconWidth ? iconWidth: 25}
@@ -157,10 +154,11 @@ const ParagraphList = ({ content, chipColor, icon, iconWidth, buttonText, modalT
 							<Typography variant="h5">
 								{ buttonText ? buttonText : "Request now" }
 							</Typography>
-						</StyledButton>
+						</Button>
 					</Stack>
 				</Container>
 			</StyledWrapper>
+
 			<ModalComponent
 				header={`Quotation for ${modalTitle}`}
 				width="75vw"

@@ -23,31 +23,30 @@ import { truncateStr } from "src/utils/formatStrings";
 
 import { connect } from "react-redux";
 
-
-const title = "Revolutionizing Multiple Industries: Pioneering IT Solutions for Growth and Success";
-const subtitle = "Seize New Opportunities, Enhance Efficiency, and Drive Exponential Growth through our State-of-the-Art IT Solutions Crafted for Your Success";
+const title =
+	"Revolutionizing Multiple Industries: Pioneering IT Solutions for Growth and Success";
+const subtitle =
+	"Seize New Opportunities, Enhance Efficiency, and Drive Exponential Growth through our State-of-the-Art IT Solutions Crafted for Your Success";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	paddingTop: "100px",
 	paddingBottom: "100px",
 }));
 
-const SlicedDomainList = DomainList.slice(0,9)
+const SlicedDomainList = DomainList.slice(0, 9);
 
-const HomeDomain = ({selectDomain}) => {
+const HomeDomain = ({ selectDomain }) => {
 	const navigate = useNavigate();
-	const theme = useTheme()
+	const theme = useTheme();
 
 	const goToDomain = () => {
-		navigate("/landing/domain")
-	}
+		navigate("/landing/domain");
+	};
 
-	
 	const selectDomainHandler = (domain) => {
-		selectDomain(domain)
-		navigate("/landing/domain/single")
-	}
-
+		selectDomain(domain);
+		navigate("/landing/domain/single");
+	};
 
 	return (
 		<StyledWrapper>
@@ -57,7 +56,6 @@ const HomeDomain = ({selectDomain}) => {
 						chipText="Our Domain"
 						title={title}
 						subtitle={subtitle}
-						alignItems="center"
 					/>
 
 					<div>
@@ -73,9 +71,18 @@ const HomeDomain = ({selectDomain}) => {
 									xl={4}
 								>
 									<Card>
-										<CardActionArea onClick={() => selectDomainHandler(domain)}>
-											<CardContent sx={{minHeight: 240}}>
-												<Stack direction="column" spacing={3}>
+										<CardActionArea
+											onClick={() =>
+												selectDomainHandler(domain)
+											}
+										>
+											<CardContent
+												sx={{ minHeight: 240 }}
+											>
+												<Stack
+													direction="column"
+													spacing={3}
+												>
 													<Stack
 														direction="row"
 														justifyContent="left"
@@ -100,7 +107,9 @@ const HomeDomain = ({selectDomain}) => {
 																		: "text.secondary"
 																}
 															>
-																{domain.subtitle}
+																{
+																	domain.subtitle
+																}
 															</Typography>
 														</Stack>
 													</Stack>
@@ -119,7 +128,15 @@ const HomeDomain = ({selectDomain}) => {
 							))}
 						</Grid>
 					</div>
-					<Button variant="contained" color="primary" sx={{p:2}} onClick={goToDomain} endIcon={<Iconify icon="icomoon-free:eye-plus" width={25}/>}>
+					<Button
+						variant="contained"
+						color="secondary"
+						sx={{ p: "10px" }}
+						onClick={goToDomain}
+						endIcon={
+							<Iconify icon="clarity:cursor-hand-solid" width={25} />
+						}
+					>
 						<Typography variant="subtitle1">
 							Wait! There is more!!
 						</Typography>
@@ -130,11 +147,10 @@ const HomeDomain = ({selectDomain}) => {
 	);
 };
 
-
 const mapStateToProps = ({}) => ({});
 
 const mapDispatchToProps = (dispatch) => ({
-	selectDomain : (domain) => dispatch(selectDomain(domain))
-})
+	selectDomain: (domain) => dispatch(selectDomain(domain)),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeDomain);

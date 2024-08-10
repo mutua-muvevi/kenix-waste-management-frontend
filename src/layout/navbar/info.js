@@ -15,16 +15,19 @@ export const navConfig = [
 				subheader: "",
 				items: [
 					{
-						title: "About Company",
-						path: "/landing/about"
+						title: "Company",
+						path: "/landing/about",
+						icon: <Iconify icon="mdi:company"/>,
 					},
 					{
 						title: "FAQ",
-						path: "/landing/faq"
+						path: "/landing/faq",
+						icon: <Iconify icon="mdi:frequently-asked-questions"/>,
 					},
 					{
 						title: "Testimonials",
-						path: "/landing/testimonials"
+						path: "/landing/testimonials",
+						icon: <Iconify icon="ph:user-check-fill"/>,
 					},
 				]
 			},
@@ -39,12 +42,14 @@ export const navConfig = [
 				subheader : "",
 				items: [
 					{
-						title: "Our Services",
-						path: "/landing/services"
+						title: "Services",
+						path: "/landing/services",
+						icon: <Iconify icon="fluent:bin-recycle-24-filled"/>,
 					},
 					{
-						title: "Our Domain",
-						path: "/landing/domain"
+						title: "Domain",
+						path: "/landing/domain",
+						icon: <Iconify icon="fontisto:recycle"/>,
 					},
 				]
 			},

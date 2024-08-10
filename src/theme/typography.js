@@ -22,8 +22,9 @@ function responsiveFontSizes({ sm, md, lg }) {
 	};
 }
 
-const FONT_PRIMARY = "'Overpass Variable', sans-serif";
-const FONT_HEADER = "'Fira Mono', monospace;";
+const FONT_PRIMARY = "'IBM Plex Sans Condensed', sans-serif";
+const FONT_HEADER = "'IBM Plex Sans Condensed', sans-serif";
+const SUBTITLE = "'IBM Plex Sans Condensed', sans-serif"
 
 const typography = {
 	fontFamily: FONT_PRIMARY,
@@ -46,28 +47,28 @@ const typography = {
 	},
 	h3: {
 		fontWeight: 700,
-		fontFamily: FONT_HEADER,
+		fontFamily: SUBTITLE,
 		lineHeight: 1.5,
 		fontSize: pxToRem(24),
 		...responsiveFontSizes({ sm: 26, md: 30, lg: 32 }),
 	},
 	h4: {
 		fontWeight: 700,
-		fontFamily: FONT_HEADER,
+		fontFamily: SUBTITLE,
 		lineHeight: 1.5,
 		fontSize: pxToRem(20),
 		...responsiveFontSizes({ sm: 20, md: 24, lg: 24 }),
 	},
 	h5: {
 		fontWeight: 700,
-		fontFamily: FONT_HEADER,
+		fontFamily: SUBTITLE,
 		lineHeight: 1.5,
 		fontSize: pxToRem(18),
 		...responsiveFontSizes({ sm: 19, md: 20, lg: 20 }),
 	},
 	h6: {
 		fontWeight: 700,
-		fontFamily: FONT_HEADER,
+		fontFamily: SUBTITLE,
 		lineHeight: 28 / 18,
 		fontSize: pxToRem(17),
 		...responsiveFontSizes({ sm: 18, md: 18, lg: 18 }),
@@ -96,7 +97,7 @@ const typography = {
 	},
 	overline: {
 		fontWeight: 700,
-		fontFamily: FONT_HEADER,
+		fontFamily: SUBTITLE,
 		lineHeight: 1.5,
 		fontSize: pxToRem(12),
 		letterSpacing: 1.1,

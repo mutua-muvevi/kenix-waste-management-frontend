@@ -43,7 +43,7 @@ const ModalComponent = ({header, open, close, width, children, type, icon, iconW
 		p: 0,
 		width: width,
 		overflow: "hidden",
-		borderRadius: 2
+		borderRadius: 1
 	};
 
 	const styledExclamationIcon = {

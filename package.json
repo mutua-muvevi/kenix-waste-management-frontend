@@ -7,6 +7,7 @@
     "@emotion/styled": "^11.10.5",
     "@fontsource-variable/overpass": "^5.0.19",
     "@fontsource/fira-mono": "^5.0.13",
+    "@fontsource/ibm-plex-sans-condensed": "^5.0.13",
     "@iconify/react": "^4.1.1",
     "@mui/icons-material": "^5.13.7",
     "@mui/material": "^5.10.13",

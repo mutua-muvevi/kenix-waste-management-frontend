@@ -102,7 +102,7 @@ const Navbar = () => {
 							onClick={() => setOpen(true)}
 							color="secondary"
 						>
-							Request Quotation
+							{isDesktop ? "Request Quotation" : "Quotation"}
 						</Button>
 
 						{!isDesktop && <NavMobile isOffset={isOffset} data={navConfig} />}
@@ -112,10 +112,10 @@ const Navbar = () => {
 				{isOffset && <Shadow />}
 			</AppBar>
 			<ModalComponent
-				header="Quotation"
+				header="Request Quotation"
 				open={open}
 				close={() => setOpen(false)}
-				width="75vw"
+				width={ isDesktop ? "75vw" : "90vw" }
 				children={<QuotationForm/>}
 			/>
 		</>

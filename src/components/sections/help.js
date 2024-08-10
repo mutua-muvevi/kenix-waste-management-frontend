@@ -33,7 +33,6 @@ const Help = () => {
 						chipText="Need Help"
 						title={HelpList.title}
 						subtitle={HelpList.subtitle}
-						alignItems="center"
 					/>
 
 					<div>
