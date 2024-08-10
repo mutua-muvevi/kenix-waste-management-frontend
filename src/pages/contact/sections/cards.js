@@ -3,21 +3,18 @@ import {
 	Card,
 	CardContent,
 	Container,
-	Divider,
 	Grid,
 	Stack,
 	Typography,
 	useTheme,
 } from "@mui/material";
 import { styled } from "@mui/system";
-import { contactItems, helpList } from "./info";
+import { contactItems } from "./info";
 
 import Iconify from "src/components/iconify/iconify";
 import TitleSubtitle from "src/components/sections/titlesubtitle";
 import HelpList from "src/content/help";
 
-const subtitle =
-	"Our dedicated team stands ready to assist you, responsive and resolute, whether it's an email query or a phone call discussion. Your success is our mission, and we strive to ensure your journey with us is smooth and rewarding.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
@@ -34,11 +31,10 @@ const ContactCards = () => {
 				<Stack direction="column" spacing={5}>
 					<TitleSubtitle
 						chipText="support"
-						title="Seamless Support: Your Lifeline in the Tech Terrain"
-						subtitle={subtitle}
-						alignItems="center"
+						title={HelpList.title}
+						subtitle={HelpList.subtitle}
+						// alignItems="center"
 					/>
-
 					<div>
 						<Grid container spacing={3}>
 							{contactItems
@@ -50,6 +46,7 @@ const ContactCards = () => {
 											md={6}
 											lg={4}
 											xl={4}
+											key={i}
 										>
 											<Card>
 												<CardContent>

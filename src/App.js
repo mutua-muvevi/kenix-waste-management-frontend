@@ -8,26 +8,26 @@ import Iconify from "./components/iconify/iconify";
 const App = () => {
 	const [open, setOpen] = useState(false);
 
-	useEffect(() => {
-		const handleCopyCut = (event) => {
-			if (event.ctrlKey && (event.key === "c" || event.key === "x")) {
-				event.preventDefault();
-				setOpen(true);
-			}
-		};
+	// useEffect(() => {
+	// 	const handleCopyCut = (event) => {
+	// 		if (event.ctrlKey && (event.key === "c" || event.key === "x")) {
+	// 			event.preventDefault();
+	// 			setOpen(true);
+	// 		}
+	// 	};
 
-		const handleRightClick = (event) => {
-			event.preventDefault(); // Prevent the context menu from opening
-		};
+	// 	const handleRightClick = (event) => {
+	// 		event.preventDefault(); // Prevent the context menu from opening
+	// 	};
 
-		document.addEventListener("keydown", handleCopyCut);
-		document.addEventListener("contextmenu", handleRightClick);
+	// 	document.addEventListener("keydown", handleCopyCut);
+	// 	document.addEventListener("contextmenu", handleRightClick);
 
-		return () => {
-			document.removeEventListener("keydown", handleCopyCut);
-			document.removeEventListener("contextmenu", handleRightClick);
-		};
-	}, []);
+	// 	return () => {
+	// 		document.removeEventListener("keydown", handleCopyCut);
+	// 		document.removeEventListener("contextmenu", handleRightClick);
+	// 	};
+	// }, []);
 
 	const handleClose = (event, reason) => {
 		if (reason === "clickaway") {
