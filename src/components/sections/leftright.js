@@ -64,9 +64,10 @@ const LeftRight = ({
 				{paragraphs
 					? paragraphs.map((par, i) => (
 							<Typography
-								variant="body1"
+								variant="subtitle1"
 								key={i}
 								textAlign="justify"
+								sx={{fontWeight : 500}}
 							>
 								{par}
 							</Typography>

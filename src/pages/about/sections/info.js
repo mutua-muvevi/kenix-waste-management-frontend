@@ -40,10 +40,10 @@ export const varietyInfo = [
 export const statements = [
 	{
 		title: "Our Mission",
-		text: "We are on a mission to revolutionize waste management in Kenya and Africa by providing innovative, sustainable, and efficient waste solutions. Our commitment to environmental responsibility and customer satisfaction drives us to create a cleaner, healthier future for all.",
+		text: "We are on a mission to revolutionize waste management in Kenya and Africa by providing innovative, sustainable, and efficient waste solutions. Our commitment is to deliver sustainable Kenix Waste Solutions to the Nairobi City County in an efficient, commercially and environmentally responsible manner.",
 	},
 	{
 		title: "Our Vision",
-		text: "Our vision is to be the leading waste management company in Africa, setting the standard for excellence in waste collection, recycling, and sustainability. We aspire to transform waste into valuable resources and create a world where waste management is synonymous with environmental stewardship.",
+		text: "Our vision is to be the leading waste management company in Africa, setting the standard for excellence in waste collection, recycling, and sustainability. Kenix Waste Solutions aspires to be an innovative Waste service provider which is recognised for its commercial performance, provides regional leadership, has the respect of its customers & industry regulators, and prides itself on its sustainability.",
 	},
 ];

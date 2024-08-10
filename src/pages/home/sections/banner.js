@@ -4,7 +4,7 @@ import { styled } from "@mui/system";
 import useTypewriter from "src/hooks/useTypewriter";
 
 const Image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1720638205/KENIX%20WASTE%20SOLUTIONS%20LTD/recycle-background-with-recycle-sign-rubbish_y0cv7b.jpg";
-const subtitle = "Kennix Waste Management provides tailored waste management solutions designed to meet your specific requirements. Our dedicated team works closely with clients to deliver efficient and sustainable waste management strategies. Trust us to handle your waste management needs with expertise and commitment."
+const subtitle = "Kenix Waste Solutions provides tailored waste management solutions designed to meet your specific requirements. Our dedicated team works closely with clients to deliver efficient and sustainable waste management strategies. Trust us to handle your waste management needs with expertise and commitment."
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	minHeight: "75vh",
@@ -27,15 +27,13 @@ const Banner = () => {
 	const words = [
 		"Residential Waste Collection",
 		"Commercial Waste Collection",
-		"Recycling and Reuse Solutions",
+		"Recycling and Resource Recovery",
 		"Hazardous Waste Management",
 		"Organic Waste Composting",
 		"E-Waste Recycling",
 		"Waste Management Consulting",
-		"Sustainable Waste Solutions",
 		"Industrial Waste Services",
-		"Medical Waste Disposal",
-		"Sale of recyclables"
+		"Biomedical Waste Management",
 	];
 	
 	const typing = useTypewriter(words);

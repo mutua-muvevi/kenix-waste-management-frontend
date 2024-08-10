@@ -66,6 +66,7 @@ const Home = () => {
 				/>
 				<HomeDomain />
 				<HomeTestimonial />
+				<Box sx={{ height: "90px" }} />
 				<Subscribe />
 				{/* <ReusableNewsCards
 					title={newsTitle}

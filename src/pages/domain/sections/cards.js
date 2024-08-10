@@ -27,7 +27,7 @@ import { selectDomain } from "src/redux/domain/action";
 import { truncateStr } from "src/utils/formatStrings";
 
 const subtitle =
-	"Experience the rhythm of innovation as we harmonize the varied chords of technology to resonate with your unique needs. We strum the strings of diverse sectors, translating the language of tech into real-world applications that transform lives. As the baton waves, our orchestra of experts plays the symphony of secure, efficient, and tailored solutions. Each composition is a testament to our commitment, our pursuit of excellence, echoing our dedication to empowering your success story. Journey with us, as we conduct the symphony of digital transformation, one note of innovation at a time.";
+	"Experience the harmony of sustainability as we synchronize the diverse elements of waste management to align with your unique environmental goals. We navigate various sectors, transforming waste challenges into opportunities that positively impact communities. Our team of experts conducts a symphony of efficient, responsible, and customized waste solutions, each initiative reflecting our unwavering commitment to excellence. Join us as we lead the way in sustainable transformation, composing a greener future, one innovative solution at a time.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
@@ -55,7 +55,7 @@ const DomainCards = ({ selectDomain }) => {
 					<Stack direction="column" spacing={5}>
 						<TitleSubtitle
 							chipText="Our domain"
-							title="Crafting the Digital Rhythm of Africa"
+							title="Orchestrating Sustainable Solutions for a Greener Africa"
 							subtitle={subtitle}
 						/>
 						<div>
@@ -143,12 +143,12 @@ const DomainCards = ({ selectDomain }) => {
 											endIcon={
 												<Iconify
 													width={35}
-													icon="game-icons:cash"
+													icon="clarity:cursor-hand-solid"
 												/>
 											}
 										>
 											<Typography variant="h5">
-												Capitalize Now
+												Request a service
 											</Typography>
 										</Button>
 									</Stack>
@@ -158,6 +158,7 @@ const DomainCards = ({ selectDomain }) => {
 					</Stack>
 				</StyledContainer>
 			</StyledWrapper>
+
 			<ModalComponent
 				header="Quotation"
 				open={open}

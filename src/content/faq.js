@@ -1,12 +1,12 @@
 const FAQList = [
 	{
 		question: "Why is waste management important for my business?",
-		answer: "Effective waste management is crucial for ensuring environmental compliance, reducing operational costs, and enhancing your business's sustainability profile. Proper waste disposal and recycling practices help minimize your environmental footprint, improve public perception, and ensure compliance with local regulations.",
+		answer: "Effective waste management is crucial for ensuring environmental compliance, reducing operational costs, and enhancing your business's sustainability profile. Proper waste management and recycling practices help minimize your environmental footprint, improve public perception, and ensure compliance with local regulations.",
 	},
 	{
 		question:
 			"What support do you provide for waste management services?",
-		answer: "We offer comprehensive support for all our waste management services, including waste audits, customized waste disposal plans, and regular consultations. Our dedicated team ensures that your waste is managed efficiently, helping you maintain compliance and achieve your sustainability goals.",
+		answer: "We offer comprehensive support for all our waste management services, including waste audits, customized waste solution plans, and regular consultations. Our dedicated team ensures that your waste is managed efficiently, helping you maintain compliance and achieve your sustainability goals.",
 	},
 	{
 		question:

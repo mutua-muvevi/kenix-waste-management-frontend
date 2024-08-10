@@ -1,4 +1,4 @@
-import { Box, Divider, useTheme } from "@mui/material";
+import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 import ReusableBanner from "src/components/sections/banner";
 import LeftRightList from "src/components/sections/leftrightlist";
@@ -9,18 +9,15 @@ import Variety from "./sections/variety";
 import MisionStatements from "./sections/statements";
 import Subscribe from "src/components/sections/subscribe";
 
-const image =
-	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033660/KENIX%20WASTE%20SOLUTIONS%20LTD/garbage-2729608_1920_zklmxh.jpg";
-const subtitle =
-	"Accelerating digital transformation journeys for enterprises worldwide through strategic insights, seamless integration, and advanced technologies. Experience a new era of agility, productivity, and competitive advantage.";
+const image = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033660/KENIX%20WASTE%20SOLUTIONS%20LTD/garbage-2729608_1920_zklmxh.jpg";
 
-const standOutImage =
-	"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033706/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-172865286-612x612_vvqbcl.jpg";
+const subtitle = "Kenix Waste Solutions is a waste management, resource recovery and recycling company that specializes in collection, processing of residential and commercial waste, organic materials, recyclable materials and construction and demolition debris. Kenix considers the old fashioned method of removing and transporting waste to a landfill as a last option. We commit to our clients that 90% of the waste collected will be recycled.";
+
+const standOutImage = "https://res.cloudinary.com/dt0uaru3j/image/upload/v1723033706/KENIX%20WASTE%20SOLUTIONS%20LTD/istockphoto-172865286-612x612_vvqbcl.jpg";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
 const About = () => {
-	const theme = useTheme();
 
 	return (
 		<Page title="About us || Kenix Waste Solutions the Leading Waste Management Solutions">
@@ -34,7 +31,7 @@ const About = () => {
 				<LeftRightList
 					title={valueProposition.title}
 					subtitle={valueProposition.subtitle}
-					chipText="stand out"
+					chipText="make a lasting impact"
 					list={valueProposition.list}
 					imgPosition="right"
 					image={standOutImage}

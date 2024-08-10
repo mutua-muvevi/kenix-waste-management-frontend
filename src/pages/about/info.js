@@ -12,7 +12,7 @@ export const leftRightList = [
 export const valueProposition = {
 	title: "Elevate Your Waste Management Experience",
 	subtitle:
-		"At Kennix Waste Management, we're committed to revolutionizing the waste management industry with innovative solutions tailored to your needs. With us, you'll experience unmatched efficiency, sustainability, and reliability in waste management. Join forces with us and discover the difference we can make in streamlining your waste management processes.",
+		"At Kenix Waste Solutions, we're committed to revolutionizing the waste management industry with innovative solutions tailored to your needs. With us, you'll experience unmatched efficiency, sustainability, and reliability in waste management. Join forces with us and discover the difference we can make in streamlining your waste management processes.",
 	list: [
 		"Expertise in waste management solutions.",
 		"Customized strategies for every client.",

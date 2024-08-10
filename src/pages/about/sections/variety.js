@@ -26,7 +26,7 @@ import Varietychildren from "./varietychildren";
 import { connect } from "react-redux";
 
 const subtitle =
-	"Harness the Power of Innovative Software Solutions. From Building to Maintenance, Debugging to Enhancement, Optimization to Innovation - We Drive Your Success. Experience Growth, Efficiency, and Transformation with Tailor-Made Technologies. Count on Our Expertise in Resolving Complex Issues and Unleashing Performance Potential. Stay Ahead of the Competition and Embrace Digital Transformation with Our Forward-Thinking Approach.";
+	"Harness the Power of Innovative Waste Solutions. From Planning to Implementation, Optimization to Sustainability, Compliance to Innovation—we drive your success. Experience cleaner operations, improved efficiency, and transformative impact with tailored waste management strategies. Rely on our expertise in resolving complex waste challenges and maximizing environmental potential. Stay ahead of industry standards and embrace sustainable transformation with our forward-thinking approach.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
@@ -57,7 +57,7 @@ const Variety = ({ varieties, variety, setVariety }) => {
 					/>
 					<Stack direction="column" spacing={5}>
 						<TitleSubtitle
-							title="Empowering Business Success through Comprehensive Software Solutions"
+							title="Empowering Business Success through Comprehensive Waste Solutions"
 							subtitle={subtitle}
 							chipText="In a nutshell"
 						/>

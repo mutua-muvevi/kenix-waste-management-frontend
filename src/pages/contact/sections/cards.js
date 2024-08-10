@@ -33,8 +33,8 @@ const ContactCards = () => {
 						chipText="support"
 						title={HelpList.title}
 						subtitle={HelpList.subtitle}
-						// alignItems="center"
 					/>
+					
 					<div>
 						<Grid container spacing={3}>
 							{contactItems
@@ -49,7 +49,7 @@ const ContactCards = () => {
 											key={i}
 										>
 											<Card>
-												<CardContent>
+												<CardContent sx={{minHeight: 200}}>
 													<Stack
 														direction="column"
 														spacing={3}

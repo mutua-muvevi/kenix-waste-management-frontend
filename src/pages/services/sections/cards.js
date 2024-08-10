@@ -28,7 +28,7 @@ import { selectService } from "src/redux/services/action";
 import { truncateStr } from "src/utils/formatStrings";
 
 const subtitle =
-	"Embark on a transformative journey with our comprehensive suite of tech services that are meticulously crafted to drive your business forward. Our team of industry experts harnesses the power of cutting-edge technologies to deliver solutions that revolutionize the way you operate";
+	"Embark on a transformative path with our comprehensive suite of waste solutions designed to elevate your environmental impact. Our team of industry experts leverages innovative strategies and sustainable practices to revolutionize how you manage waste, ensuring a cleaner and greener future.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
@@ -54,7 +54,7 @@ const ServicesCards = ({ selectService }) => {
 					<Stack direction="column" spacing={5}>
 						<TitleSubtitle
 							chipText="Our services"
-							title="Accelerating Your Digital Transformation"
+							title="Accelerating Your Sustainability Journey"
 							subtitle={subtitle}
 						/>
 						<div>

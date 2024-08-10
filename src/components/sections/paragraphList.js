@@ -46,6 +46,7 @@ const ParagraphList = ({ content, chipColor, icon, iconWidth, buttonText, modalT
 				{content
 					? content.map((cont, index) => (
 							<StyledContentWrapper
+								key={index}
 								sx={{
 									backgroundColor:
 										index % 2 === 0
@@ -147,12 +148,12 @@ const ParagraphList = ({ content, chipColor, icon, iconWidth, buttonText, modalT
 							endIcon={
 								<Iconify
 									width={iconWidth ? iconWidth: 25}
-									icon={icon ? icon : "material-symbols:order-approve-rounded"}
+									icon="clarity:cursor-hand-solid"
 								/>
 							}
 						>
 							<Typography variant="h5">
-								{ buttonText ? buttonText : "Request now" }
+								Request service
 							</Typography>
 						</Button>
 					</Stack>
