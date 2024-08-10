@@ -1,7 +1,7 @@
 const HelpList = {
 	title: "We Are Here to Help You!",
 	subtitle:
-		"Navigating the complexities of waste management can be challenging, but you don't have to do it alone. Our team of experts is here to guide you at every step, whether you're looking for customized waste disposal solutions, need assistance with waste management compliance, or are seeking ways to optimize your recycling programs. We're committed to delivering the support and services you need to achieve your sustainability goals.",
+		"Navigating the complexities of waste management can be challenging, but you don't have to do it alone. Our team of experts is here to guide you at every step, whether you're looking for customized waste solutions, need assistance with waste management compliance, or are seeking ways to optimize your recycling programs. We're committed to delivering the support and services you need to achieve your sustainability goals.",
 	classification: [
 		{
 			icon: "mdi:recycle",

@@ -49,7 +49,7 @@ const ContactCards = () => {
 											key={i}
 										>
 											<Card>
-												<CardContent>
+												<CardContent sx={{minHeight: 200}}>
 													<Stack
 														direction="column"
 														spacing={3}

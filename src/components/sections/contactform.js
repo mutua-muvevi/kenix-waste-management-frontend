@@ -2,6 +2,7 @@ import {
 	Box,
 	Button,
 	Container,
+	Divider,
 	Stack,
 	Typography,
 	useTheme,
@@ -44,7 +45,8 @@ const FORM_VALIDATION = Yup.object().shape({
 		.required("Your message to us is required"),
 });
 
-const subtitle = "To learn more about Kenix waste solutions, our waste management services and products, please fill out the form below. We will get back to you as soon as possible. Together, we can work to transform your waste management journey and build a greener future."
+const subtitle =
+	"To learn more about Kenix waste solutions, our waste management services and products, please fill out the form below. We will get back to you as soon as possible. Together, we can work to transform your waste management journey and build a greener future.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	paddingTop: "100px",
@@ -140,6 +142,7 @@ const ContactForm = ({ send }) => {
 						</Form>
 					</Formik>
 				</Stack>
+				<Divider color={theme.palette.primary.main} sx={{ mt: 10 }} />
 			</Container>
 		</StyledWrapper>
 	);
