@@ -1,4 +1,11 @@
-import { Box, Button, Container, Stack, useTheme } from "@mui/material";
+import {
+	Box,
+	Button,
+	Container,
+	Stack,
+	Typography,
+	useTheme,
+} from "@mui/material";
 import { styled } from "@mui/system";
 
 import { Formik, Form } from "formik";
@@ -37,8 +44,7 @@ const FORM_VALIDATION = Yup.object().shape({
 		.required("Your message to us is required"),
 });
 
-const subtitle =
-	"Empower your business growth through seamless collaboration, personalized solutions, and exceptional support. Let's embark on a transformative journey together and achieve new heights of success";
+const subtitle = "To learn more about Kenix waste solutions, our waste management services and products, please fill out the form below. We will get back to you as soon as possible. Together, we can work to transform your waste management journey and build a greener future."
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	paddingTop: "100px",
@@ -47,6 +53,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 
 const StyledButton = styled(Button)(({ theme }) => ({
 	width: "250px",
+	padding: "10px",
 }));
 
 const ContactForm = ({ send }) => {
@@ -62,10 +69,9 @@ const ContactForm = ({ send }) => {
 			<Container maxWidth="xl">
 				<Stack direction="column" spacing={4}>
 					<TitleSubtitle
-						title=" Let's Connect and Create Something Amazing Together"
+						title="Join Us in Building a Greener Future Together"
 						subtitle={subtitle}
-						chipText="Let's get in touch"
-						alignItems="center"
+						chipText="Get in Touch"
 					/>
 					<Formik
 						initialValues={{
@@ -77,7 +83,7 @@ const ContactForm = ({ send }) => {
 						<Form>
 							<Stack
 								direction="column"
-								alignItems="center"
+								alignItems="left"
 								spacing={4}
 							>
 								<TextfieldWrapper
@@ -121,11 +127,14 @@ const ContactForm = ({ send }) => {
 								<StyledButton
 									type="submit"
 									variant="contained"
+									color="secondary"
 									endIcon={
 										<Iconify icon="vaadin:paperplane" />
 									}
 								>
-									Reach to us
+									<Typography variant="subtitle1">
+										Get in touch
+									</Typography>
 								</StyledButton>
 							</Stack>
 						</Form>

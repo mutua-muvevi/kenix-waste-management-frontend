@@ -1,4 +1,4 @@
-import { Box, Button, Container, Stack } from "@mui/material";
+import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 
 import { Formik, Form } from "formik";
@@ -44,15 +44,9 @@ const FORM_VALIDATION = Yup.object().shape({
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
-
-const StyledButton = styled(Button)(({ theme }) => ({
-	width:"250px"
-}));
-
-const QuotationForm = ({sendQuotation}) => {
-	
+const QuotationForm = ({ sendQuotation }) => {
 	const submitHandler = (values, { resetForm }) => {
-		sendQuotation(values)
+		sendQuotation(values);
 		resetForm();
 	};
 
@@ -67,13 +61,51 @@ const QuotationForm = ({sendQuotation}) => {
 					onSubmit={submitHandler}
 				>
 					<Form>
-						<Stack direction="column" alignItems="center" spacing={4} sx={{paddingTop: 4, paddingBottom: 4}}>
-							<TextfieldWrapper name="fullname" label="Your name"  variant="filled" />
-							<TextfieldWrapper name="email" label="Your Email"  variant="filled"/>
-							<TextfieldWrapper name="telephone" label="Your Telephone Number"  variant="filled" />
-							<TextfieldWrapper name="service" label="Service"  variant="filled"/>
-							<TextfieldWrapper name="description" label="Description" multiline rows={4} variant="filled"/>
-							<StyledButton type="submit" variant="contained" endIcon={<Iconify icon="vaadin:paperplane"/>}>Post Quotation</StyledButton>
+						<Stack
+							direction="column"
+							alignItems="left"
+							spacing={4}
+							sx={{ paddingTop: 4, paddingBottom: 4 }}
+						>
+							<TextfieldWrapper
+								name="fullname"
+								label="Your name"
+								variant="standard"
+							/>
+							<TextfieldWrapper
+								name="email"
+								label="Your Email"
+								variant="standard"
+							/>
+							<TextfieldWrapper
+								name="telephone"
+								label="Your Telephone Number"
+								variant="standard"
+							/>
+							<TextfieldWrapper
+								name="service"
+								label="Service"
+								variant="standard"
+							/>
+							<TextfieldWrapper
+								name="description"
+								label="Description"
+								multiline
+								rows={4}
+								variant="standard"
+							/>
+							<Button
+								type="submit"
+								variant="contained"
+								color="secondary"
+								sx={{ p: "10px", width: "250px" }}
+								endIcon={<Iconify icon="vaadin:paperplane" />}
+								
+							>
+								<Typography variant="subtitle1">
+									Submit
+								</Typography>
+							</Button>
 						</Stack>
 					</Form>
 				</Formik>
@@ -85,7 +117,7 @@ const QuotationForm = ({sendQuotation}) => {
 const mapStateToProps = ({}) => ({});
 
 const mapDispatchToProps = (dispatch) => ({
-	sendQuotation: (values) => dispatch(postQuotation(values))
-})
+	sendQuotation: (values) => dispatch(postQuotation(values)),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(QuotationForm);

@@ -28,7 +28,7 @@ export const NavItem = forwardRef(
 				open={open}
 				{...other}
 			>
-				<Typography sx={{color: "#fff"}} variant="subtitle1">
+				<Typography sx={{color: "#fff", fontWeight: 500}} variant="subtitle1">
 					{title}
 				</Typography>
 

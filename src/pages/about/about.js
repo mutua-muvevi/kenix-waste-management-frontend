@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Divider, useTheme } from "@mui/material";
 import { styled } from "@mui/system";
 import ReusableBanner from "src/components/sections/banner";
 import LeftRightList from "src/components/sections/leftrightlist";
@@ -20,6 +20,8 @@ const standOutImage =
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
 const About = () => {
+	const theme = useTheme();
+
 	return (
 		<Page title="About us || Kenix Waste Solutions the Leading Waste Management Solutions">
 			<StyledWrapper>
@@ -39,9 +41,11 @@ const About = () => {
 					imageHeight="530"
 					chipWidth="200px"
 				/>
+				
 				<Variety />
 				<MisionStatements />
 				<Subscribe />
+				<Box sx={{my : 12.5}}/>
 			</StyledWrapper>
 		</Page>
 	);

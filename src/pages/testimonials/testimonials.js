@@ -21,7 +21,6 @@ const Testimonials = () => {
 					subtitle={subtitle}
 					image={image}
 					height="60vh"
-					alignItems="center"
 				/>
 				<TestimonialsCards/>
 			</StyledWrapper>

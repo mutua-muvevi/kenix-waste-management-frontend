@@ -1342,6 +1342,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.13.tgz#2aa677938f0759b8d368bddd3c7ec299ee0c17af"
   integrity sha512-fZDjR2BdAqmauEbTjcIT62zYzbOgDa5+IQH34D2k8Pxmy1T815mAqQkZciWZVQ9dc/BgdTtTUV9HJ2ulBNwchg==
 
+"@fontsource/ibm-plex-sans-condensed@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-sans-condensed/-/ibm-plex-sans-condensed-5.0.13.tgz#514c959073ec817f86b0d04f7900e85e13399dd1"
+  integrity sha512-EpzN/7ISk01MKKxfsF5kgI9GV270GooqcetXFY+ZzS+M+QU/DMdTHzc+/16ozX/FqWa45imgtiu3vsnN1sPxVw==
+
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.7.tgz#38aec044c6c828f6ed51d5d7ae3d9b9faf6dbb0f"

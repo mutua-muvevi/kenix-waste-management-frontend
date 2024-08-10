@@ -15,18 +15,6 @@ const StyledContainer = styled(Container)(({ theme }) => ({
 	paddingBottom: "100px",
 }));
 
-const StyledGrid = styled(Grid)(({ theme }) => ({
-	
-}))
-
-const StyledGridItem = styled(Grid)(({ theme }) => ({
-	minHeight: "40vh",
-}))
-
-const StyledCard = styled(Card)(({ theme }) => ({
-	width: "350px"
-}))
-
 const styledImage ={
 	width: "50px",
 	height: "50px",
@@ -42,7 +30,6 @@ const TestimonialsCards = () => {
 						chipText="testimonials"
 						title="Trusted all around the world"
 						subtitle={subtitle}
-						alignItems="center"
 					/>
 
 					<div>
@@ -50,12 +37,12 @@ const TestimonialsCards = () => {
 							{
 								TestimonialsList.map((el, i) => (
 									<Grid item xs={12} sm={12} md={6} lg={4} xl={3} key={i}>
-										<StyledCard>
-											<CardContent>
+										<Card>
+											<CardContent sx={{minHeight: 435}}>
 												<Stack direction="column" spacing={3}>
 													<img src={el.image} alt={el.fullname} style={styledImage}/>
 
-													<Typography variant="body1">
+													<Typography variant="body1" textAlign="justify">
 														{el.description}
 													</Typography>
 													<Stack direction="column" spacing={1.5}>
@@ -69,7 +56,7 @@ const TestimonialsCards = () => {
 													</Stack>
 												</Stack>
 											</CardContent>
-										</StyledCard>
+										</Card>
 									</Grid>
 								))
 							}

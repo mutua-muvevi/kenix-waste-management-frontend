@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 // @mui
-import { List, IconButton, Stack, Typography, Divider, SwipeableDrawer } from "@mui/material";
+import { List, IconButton, Stack, Typography, Divider, SwipeableDrawer, useTheme } from "@mui/material";
 // config
 import { NAV } from "../../../config";
 // components
@@ -23,6 +23,8 @@ export default function NavMobile({ isOffset, data }) {
 	const { pathname } = useLocation();
 
 	const [open, setOpen] = useState(false);
+
+	const theme = useTheme();
 
 	useEffect(() => {
 		if (open) {
@@ -46,7 +48,7 @@ export default function NavMobile({ isOffset, data }) {
 				sx={{
 					ml: 1,
 					...(isOffset && {
-						color: "text.primary",
+						color: theme.palette.secondary.main,
 					}),
 				}}
 			>
@@ -62,6 +64,7 @@ export default function NavMobile({ isOffset, data }) {
 					sx: {
 						pb: 5,
 						width: NAV.W_BASE,
+						backgroundColor: theme.palette.primary.darker 
 					},
 				}}
 			>
@@ -70,7 +73,7 @@ export default function NavMobile({ isOffset, data }) {
 						direction="row"
 						spacing={2}
 						justifyContent="left"
-						sx={{ mx: 2.5 }}
+						sx={{ mx: 2.5}}
 						alignItems="center"
 					>
 						<Logo sx={{ my: 3 }} />

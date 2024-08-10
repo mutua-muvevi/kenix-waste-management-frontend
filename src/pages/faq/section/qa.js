@@ -33,7 +33,6 @@ const QuestionAnswer = () => {
 						chipWidth={250}
 						title="Frequently Asked Question"
 						subtitle={subtitle}
-						alignItems="center"
 					/>
 
 					<div>
@@ -52,7 +51,7 @@ const QuestionAnswer = () => {
 										</AccordionSummary>
 
 										<AccordionDetails>
-											<Typography variant="subtitle1" textAlign="justify">
+											<Typography variant="h6" textAlign="justify" sx={{fontWeight: 500}}>
 												{qa.answer}
 											</Typography>
 										</AccordionDetails>

@@ -36,9 +36,6 @@ const StyledContainer = styled(Container)(({ theme }) => ({
 	paddingBottom: "100px",
 }));
 
-const StyledButton = styled(Button)(({ theme }) => ({
-	padding: "10px",
-}));
 
 const DomainCards = ({ selectDomain }) => {
 	const [open, setOpen] = useState(false);
@@ -118,7 +115,7 @@ const DomainCards = ({ selectDomain }) => {
 																</Typography>
 															</Stack>
 														</Stack>
-														<Typography variant="body1">
+														<Typography variant="body1" textAlign="justify">
 															{truncateStr(
 																domain.mainText,
 																200
@@ -139,9 +136,9 @@ const DomainCards = ({ selectDomain }) => {
 									xl={12}
 								>
 									<Stack>
-										<StyledButton
+										<Button
 											variant="contained"
-											color="primary"
+											color="secondary"
 											onClick={() => setOpen(true)}
 											endIcon={
 												<Iconify
@@ -153,7 +150,7 @@ const DomainCards = ({ selectDomain }) => {
 											<Typography variant="h5">
 												Capitalize Now
 											</Typography>
-										</StyledButton>
+										</Button>
 									</Stack>
 								</Grid>
 							</Grid>

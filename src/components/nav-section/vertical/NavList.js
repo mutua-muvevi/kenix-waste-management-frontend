@@ -51,7 +51,7 @@ export default function NavList({ data, depth, hasChild }) {
 
 			{hasChild && (
 				<Collapse in={open} unmountOnExit>
-					<NavSubList data={data.children} depth={depth} />
+					<NavSubList data={data.children} depth={depth} active={active} />
 				</Collapse>
 			)}
 		</>
@@ -65,7 +65,7 @@ NavSubList.propTypes = {
 	depth: PropTypes.number,
 };
 
-function NavSubList({ data, depth }) {
+function NavSubList({ data, depth, active }) {
 	return (
 		<>
 			{data.map((list) => (
@@ -74,6 +74,7 @@ function NavSubList({ data, depth }) {
 					data={list}
 					depth={depth + 1}
 					hasChild={!!list.children}
+					active={active}
 				/>
 			))}
 		</>
