@@ -333,38 +333,38 @@ const ServiceList = [
 	{
 		icon: "mdi:dump-truck",
 		title: "Biomedical Waste Management",
-		subtitle: "Safe and Compliant Hazardous Waste Disposal",
+		subtitle: "Safe and Compliant Biomedical Waste Disposal",
 		mainText:
-			"Kenix Waste Solutions specializes in the safe and compliant disposal of hazardous waste. Our expert team is trained to handle, transport, and dispose of hazardous materials in accordance with all regulatory requirements, ensuring the safety of our clients and the environment.",
+			"Kenix Waste Solutions specializes in the safe and compliant disposal of biomedical waste. Our expert team is trained to handle, transport, and dispose of biomedical materials in accordance with all regulatory requirements, ensuring the safety of our clients and the environment.",
 		thumbnail:
 			"https://res.cloudinary.com/dt0uaru3j/image/upload/v1723238449/KENIX%20WASTE%20SOLUTIONS%20LTD/42190997260_ezctwt.png",
 		video: "",
 		content: [
 			{
-				title: "Hazardous Waste Identification and Classification",
+				title: "Biomedical Waste Identification and Classification",
 				subtitle: "Expert Assessment and Categorization",
 				image: "",
 				paragraphs: [
-					"Proper identification and classification of hazardous waste are crucial for safe disposal. Our experts conduct thorough assessments to identify hazardous materials and classify them according to regulatory standards.",
-					"This ensures that all hazardous waste is handled correctly, minimizing risks to health and the environment.",
+					"Proper identification and classification of biomedical waste are crucial for safe disposal. Our experts conduct thorough assessments to identify biomedical materials and classify them according to regulatory standards.",
+					"This ensures that all biomedical waste is handled correctly, minimizing risks to health and the environment.",
 				],
 				list: {
-					title: "Our Hazardous Waste Services Include:",
+					title: "Our Biomedical Waste Services Include:",
 					items: [
 						{
 							icon: "mdi:biohazard",
 							title: "Waste Identification",
-							text: "Thorough identification of hazardous waste materials to ensure proper handling and disposal.",
+							text: "Thorough identification of biomedical waste materials to ensure proper handling and disposal.",
 						},
 						{
 							icon: "mdi:biohazard",
 							title: "Waste Classification",
-							text: "Categorizing hazardous waste according to regulatory standards.",
+							text: "Categorizing biomedical waste according to regulatory standards.",
 						},
 						{
 							icon: "mdi:biohazard",
 							title: "Documentation and Compliance",
-							text: "Ensuring all hazardous waste disposal activities are documented and comply with regulations.",
+							text: "Ensuring all biomedical waste disposal activities are documented and comply with regulations.",
 						},
 					],
 				},
@@ -374,7 +374,7 @@ const ServiceList = [
 				subtitle: "Minimizing Risks Through Proper Handling",
 				image: "",
 				paragraphs: [
-					"Transporting and disposing of hazardous waste require specialized knowledge and equipment. Kenix Waste Solutions ensures that hazardous waste is transported safely and disposed of in approved facilities.",
+					"Transporting and disposing of biomedical waste require specialized knowledge and equipment. Kenix Waste Solutions ensures that biomedical waste is transported safely and disposed of in approved facilities.",
 					"Our team adheres to all safety protocols and regulatory requirements, minimizing the risk to people and the environment.",
 				],
 				list: {
@@ -383,23 +383,24 @@ const ServiceList = [
 						{
 							icon: "mdi:biohazard",
 							title: "Secure Transport",
-							text: "Safe and secure transportation of hazardous waste to disposal facilities.",
+							text: "Safe and secure transportation of biomedical waste to disposal facilities.",
 						},
 						{
 							icon: "mdi:biohazard",
 							title: "Certified Disposal",
-							text: "Disposal of hazardous waste in certified and compliant facilities.",
+							text: "Disposal of biomedical waste in certified and compliant facilities.",
 						},
 						{
 							icon: "mdi:biohazard",
 							title: "Emergency Response",
-							text: "24/7 emergency response for hazardous waste incidents.",
+							text: "24/7 emergency response for biomedical waste incidents.",
 						},
 					],
 				},
 			},
 		],
 	},
+	
 
 	{
 		icon: "fluent:recycling-24-regular",
