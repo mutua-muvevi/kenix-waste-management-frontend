@@ -6,7 +6,7 @@ const styledIcon = {
 };
 
 export const leftRightContainerList = {
-	title: "Who Finds Inspiration in Kenix Waste Management?",
+	title: "Who Finds Inspiration in Kenix Waste Solutions?",
 	items: [
 		{
 			icon: <FaRecycle style={styledIcon} />,
