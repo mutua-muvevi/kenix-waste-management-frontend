@@ -23,10 +23,8 @@ import { truncateStr } from "src/utils/formatStrings";
 
 import { connect } from "react-redux";
 
-const title =
-	"Revolutionizing Multiple Industries: Pioneering IT Solutions for Growth and Success";
 const subtitle =
-	"Seize New Opportunities, Enhance Efficiency, and Drive Exponential Growth through our State-of-the-Art IT Solutions Crafted for Your Success";
+	"Experience the harmony of sustainability as we synchronize the diverse elements of waste management to align with your unique environmental goals. We navigate various sectors, transforming waste challenges into opportunities that positively impact communities. Our team of experts conducts a symphony of efficient, responsible, and customized waste solutions, each initiative reflecting our unwavering commitment to excellence. Join us as we lead the way in sustainable transformation, composing a greener future, one innovative solution at a time.";
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	paddingTop: "100px",
@@ -54,7 +52,7 @@ const HomeDomain = ({ selectDomain }) => {
 				<Stack direction="column" spacing={5}>
 					<TitleSubtitle
 						chipText="Our Domain"
-						title={title}
+						title="Orchestrating Sustainable Solutions for a Greener Africa"
 						subtitle={subtitle}
 					/>
 

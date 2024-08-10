@@ -20,10 +20,10 @@ const MisionStatements = () => {
 				<Grid container spacing={3}>
 					<Grid item xs={12} sm={12} md={12} lg={4} xl={4}>
 						<Stack direction="column" spacing={2}>
-							<ReusableCounter number={100} duration={2000} variant="h1" sx={{fontSize: "100px"}}/>
+							<ReusableCounter number={90} duration={2000} variant="h1" sx={{fontSize: "100px"}}/>
 							
-							<Typography variant="h6">
-								Work Done
+							<Typography variant="h5">
+								Waste collected is recycled
 							</Typography>
 						</Stack>
 					</Grid>
@@ -34,7 +34,7 @@ const MisionStatements = () => {
 									<Typography variant="h4">
 										{el.title}
 									</Typography>
-									<Typography variant="body1">
+									<Typography variant="body1" textAlign="justify">
 										{el.text}
 									</Typography>
 								</Stack>

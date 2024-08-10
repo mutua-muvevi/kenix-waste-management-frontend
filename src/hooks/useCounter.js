@@ -70,7 +70,7 @@ export default function ReusableCounter({ number, duration, variant, sx }) {
 			transition={{ duration: 1 }}
 		>
 			<Typography variant={variant} style={sx ? sx : null}>
-				{count} +
+				{count} %
 			</Typography>
 		</m.div>
 	);

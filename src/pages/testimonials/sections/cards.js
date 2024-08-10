@@ -28,7 +28,7 @@ const TestimonialsCards = () => {
 				<Stack direction="column" spacing={3}>
 					<TitleSubtitle
 						chipText="testimonials"
-						title="Trusted all around the world"
+						title="Trusted all over Kenya"
 						subtitle={subtitle}
 					/>
 

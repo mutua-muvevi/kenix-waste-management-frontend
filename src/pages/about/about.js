@@ -31,7 +31,7 @@ const About = () => {
 				<LeftRightList
 					title={valueProposition.title}
 					subtitle={valueProposition.subtitle}
-					chipText="stand out"
+					chipText="make a lasting impact"
 					list={valueProposition.list}
 					imgPosition="right"
 					image={standOutImage}

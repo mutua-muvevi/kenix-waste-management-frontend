@@ -33,8 +33,8 @@ const ContactCards = () => {
 						chipText="support"
 						title={HelpList.title}
 						subtitle={HelpList.subtitle}
-						// alignItems="center"
 					/>
+					
 					<div>
 						<Grid container spacing={3}>
 							{contactItems
