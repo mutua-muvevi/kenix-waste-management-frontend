@@ -1,4 +1,4 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import { Alert, Box, Button, Container, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 
 import { Formik, Form } from "formik";
@@ -9,6 +9,7 @@ import Iconify from "../iconify/iconify";
 
 import { postQuotation } from "src/redux/quotation/action";
 import { connect } from "react-redux";
+import { useState } from "react";
 
 const INITIAL_FORM_STATE = {
 	fullname: "",
@@ -44,10 +45,43 @@ const FORM_VALIDATION = Yup.object().shape({
 
 const StyledWrapper = styled(Box)(({ theme }) => ({}));
 
-const QuotationForm = ({ sendQuotation }) => {
-	const submitHandler = (values, { resetForm }) => {
-		sendQuotation(values);
-		resetForm();
+const StyledButton = styled(Button)(({ theme }) => ({
+	width: "250px",
+	padding: "10px",
+}));
+
+const QuotationForm = ({ sendQuotation, close }) => {
+	const [alertMessage, setAlertMessage] = useState("");
+	const [alertSeverity, setAlertSeverity] = useState("info");
+	const [isSubmitting, setIsSubmitting] = useState(false);
+
+	const submitHandler = async (values, { resetForm }) => {
+		setIsSubmitting(true);
+
+		try {
+			const response = await sendQuotation(values);
+
+			if (!response) throw Error;
+
+			const { success, message } = await response.data;
+
+			setAlertMessage(message);
+			setAlertSeverity(success ? "success" : "error");
+
+			if (success) {
+				setTimeout(() => {
+					resetForm();
+
+					close();
+				}, 3000);
+			}
+		} catch (error) {
+			setAlertMessage(error.error || "An error occurred.");
+			console.log("Error from contact form: ", error, error.response);
+			setAlertSeverity("error");
+		} finally {
+			setIsSubmitting(false);
+		}
 	};
 
 	return (
@@ -64,9 +98,15 @@ const QuotationForm = ({ sendQuotation }) => {
 						<Stack
 							direction="column"
 							alignItems="left"
-							spacing={4}
+							spacing={3}
 							sx={{ paddingTop: 4, paddingBottom: 4 }}
 						>
+							{alertMessage && (
+								<Alert severity={alertSeverity}>
+									{alertMessage}
+								</Alert>
+							)}
+
 							<TextfieldWrapper
 								name="fullname"
 								label="Your name"
@@ -94,18 +134,19 @@ const QuotationForm = ({ sendQuotation }) => {
 								rows={4}
 								variant="standard"
 							/>
-							<Button
+							<StyledButton
 								type="submit"
 								variant="contained"
 								color="secondary"
-								sx={{ p: "10px", width: "250px" }}
-								endIcon={<Iconify icon="vaadin:paperplane" />}
-								
+								endIcon={
+									<Iconify icon="vaadin:paperplane" />
+								}
+								disabled={isSubmitting}
 							>
 								<Typography variant="subtitle1">
 									Submit
 								</Typography>
-							</Button>
+							</StyledButton>
 						</Stack>
 					</Form>
 				</Formik>

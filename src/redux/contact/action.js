@@ -19,7 +19,7 @@ export const sendMessage = (values) => {
 	return async (dispatch) => {
 		try {
 			const res = axios.post(
-				`https://Kenix Waste Solutions-baur.onrender.com/api/contact/send`,
+				`https://kenix-waste-solutions-server.onrender.com/api/contact/send`,
 				values,
 				{
 					headers: {
@@ -29,6 +29,9 @@ export const sendMessage = (values) => {
 			);
 			dispatch(sendMessageStart())
 			dispatch(sendMessageSuccess(res.data));
+
+			return res;
+
 		} catch (error) {
 			dispatch(sendMessageFail(error.response));
 		}

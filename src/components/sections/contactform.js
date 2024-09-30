@@ -1,4 +1,5 @@
 import {
+	Alert,
 	Box,
 	Button,
 	Container,
@@ -17,6 +18,7 @@ import TitleSubtitle from "./titlesubtitle";
 import Iconify from "../iconify/iconify";
 import { sendMessage } from "src/redux/contact/action";
 import { connect } from "react-redux";
+import { useState } from "react";
 
 const INITIAL_FORM_STATE = {
 	fullname: "",
@@ -60,16 +62,46 @@ const StyledButton = styled(Button)(({ theme }) => ({
 
 const ContactForm = ({ send }) => {
 	const theme = useTheme();
+	const [alertMessage, setAlertMessage] = useState("");
+	const [alertSeverity, setAlertSeverity] = useState("info");
+	const [isSubmitting, setIsSubmitting] = useState(false);
 
-	const submitHandler = (values, { resetForm }) => {
-		send(values);
-		resetForm();
+	const submitHandler = async (values, { resetForm }) => {
+		setIsSubmitting(true)
+
+		try {
+			const response = await send(values);
+
+			if (!response) throw Error;
+
+			const { success, message } = await response.data;
+
+			setAlertMessage(message);
+			setAlertSeverity(success ? "success" : "error");
+
+			if (success) {
+				setTimeout(() => {
+					resetForm();
+				}, 3000);
+			}
+		} catch (error) {
+			setAlertMessage(error.error || "An error occurred.");
+			console.log("Error from contact form: ", error, error.response);
+			setAlertSeverity("error");
+
+		} finally {
+			setIsSubmitting(false);
+		}
 	};
 
 	return (
 		<StyledWrapper>
 			<Container maxWidth="xl">
 				<Stack direction="column" spacing={4}>
+					{alertMessage && (
+						<Alert severity={alertSeverity}>{alertMessage}</Alert>
+					)}
+
 					<TitleSubtitle
 						title="Join Us in Building a Greener Future Together"
 						subtitle={subtitle}
@@ -133,9 +165,11 @@ const ContactForm = ({ send }) => {
 									endIcon={
 										<Iconify icon="vaadin:paperplane" />
 									}
+									disabled={isSubmitting}
+									
 								>
 									<Typography variant="subtitle1">
-										Get in touch
+										{isSubmitting ? "submitting..." : "Get in touch"}
 									</Typography>
 								</StyledButton>
 							</Stack>

@@ -19,7 +19,7 @@ export const postQuotation = (values) => {
 	return async (dispatch) => {
 		try {
 			const res = axios.post(
-				`https://Kenix Waste Solutions-baur.onrender.com/api/quotation/post`,
+				`https://kenix-waste-solutions-server.onrender.com/api/quotation/post`,
 				values,
 				{
 					headers: {
@@ -29,8 +29,12 @@ export const postQuotation = (values) => {
 			);
 			dispatch(postQuotationStart())
 			dispatch(postQuotationSuccess(res.data));
+
+			return res;
 		} catch (error) {
 			dispatch(postQuotationFail(error.response));
+
+			return error.response;
 		}
 	};
 };

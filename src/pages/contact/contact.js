@@ -24,7 +24,7 @@ const Contact = () => {
 					height="60vh"
 					alignItems="center"
 				/>
-				<ContactForm/>
+				<ContactForm />
 				<ContactCards/>
 			</StyledWrapper>
 		</Page>

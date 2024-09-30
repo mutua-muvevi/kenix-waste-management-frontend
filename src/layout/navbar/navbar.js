@@ -116,7 +116,7 @@ const Navbar = () => {
 				open={open}
 				close={() => setOpen(false)}
 				width={ isDesktop ? "75vw" : "90vw" }
-				children={<QuotationForm/>}
+				children={<QuotationForm close={() => setOpen(false)}/>}
 			/>
 		</>
 	);
